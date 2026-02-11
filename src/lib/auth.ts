@@ -5,12 +5,12 @@
  * TODO: 本格的な認証システムを実装する際は、NextAuth.js等を使用
  */
 
-"use server";
+'use server'
 
-import { UserFileRepository } from "@/infra/storage/file/user.repository";
-import type { User } from "@/domain/user/user.entity";
+import { UserFileRepository } from '@/infra/storage/file/user.repository'
+import type { User } from '@/domain/user/user.entity'
 
-const userRepo = new UserFileRepository();
+const userRepo = new UserFileRepository()
 
 /**
  * 現在ログイン中のユーザーを取得
@@ -18,14 +18,14 @@ const userRepo = new UserFileRepository();
  */
 export async function getCurrentUser(): Promise<User | null> {
   // 仮実装: 最初のユーザーを返す
-  const users = await userRepo.findAll();
-  return users[0] || null;
+  const users = await userRepo.findAll()
+  return users[0] || null
 }
 
 /**
  * ログイン中のユーザーIDを取得
  */
 export async function getCurrentUserId(): Promise<string | null> {
-  const user = await getCurrentUser();
-  return user?.id || null;
+  const user = await getCurrentUser()
+  return user?.id || null
 }

@@ -3,13 +3,20 @@
  * ドメイン層: ユーザーが所有・管理するギアの型定義
  */
 
-import { z } from "zod";
+import { z } from 'zod'
 
-export const GearTypeSchema = z.enum(["camera", "lens"]);
-export type GearType = z.infer<typeof GearTypeSchema>;
+export const GearTypeSchema = z.enum([
+  'camera',
+  'lens',
+])
+export type GearType = z.infer<typeof GearTypeSchema>
 
-export const GearStatusSchema = z.enum(["owned", "wanted", "previously-owned"]);
-export type GearStatus = z.infer<typeof GearStatusSchema>;
+export const GearStatusSchema = z.enum([
+  'owned',
+  'wanted',
+  'previously-owned',
+])
+export type GearStatus = z.infer<typeof GearStatusSchema>
 
 export const UserGearSchema = z.object({
   id: z.string(),
@@ -23,23 +30,23 @@ export const UserGearSchema = z.object({
   photos: z.array(z.string()).optional(), // 写真URL（最大10枚）
   createdAt: z.date(),
   updatedAt: z.date(),
-});
+})
 
-export type UserGear = z.infer<typeof UserGearSchema>;
+export type UserGear = z.infer<typeof UserGearSchema>
 
 export const CreateUserGearInputSchema = UserGearSchema.omit({
   id: true,
   createdAt: true,
   updatedAt: true,
-});
-export type CreateUserGearInput = z.infer<typeof CreateUserGearInputSchema>;
+})
+export type CreateUserGearInput = z.infer<typeof CreateUserGearInputSchema>
 
 export const UpdateUserGearInputSchema = UserGearSchema.omit({
   id: true,
   userId: true,
   createdAt: true,
-}).partial();
-export type UpdateUserGearInput = z.infer<typeof UpdateUserGearInputSchema>;
+}).partial()
+export type UpdateUserGearInput = z.infer<typeof UpdateUserGearInputSchema>
 
 /**
  * マスタから登録する場合のヘルパースキーマ
@@ -51,8 +58,8 @@ export const CreateUserGearFromMasterInputSchema = z.object({
   status: GearStatusSchema,
   comment: z.string().optional(),
   photos: z.array(z.string()).optional(),
-});
-export type CreateUserGearFromMasterInput = z.infer<typeof CreateUserGearFromMasterInputSchema>;
+})
+export type CreateUserGearFromMasterInput = z.infer<typeof CreateUserGearFromMasterInputSchema>
 
 /**
  * カスタム登録する場合のヘルパースキーマ
@@ -65,5 +72,5 @@ export const CreateUserGearCustomInputSchema = z.object({
   status: GearStatusSchema,
   comment: z.string().optional(),
   photos: z.array(z.string()).optional(),
-});
-export type CreateUserGearCustomInput = z.infer<typeof CreateUserGearCustomInputSchema>;
+})
+export type CreateUserGearCustomInput = z.infer<typeof CreateUserGearCustomInputSchema>

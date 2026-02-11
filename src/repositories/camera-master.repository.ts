@@ -3,41 +3,42 @@
  * ドメイン層: カメラマスタのリポジトリインターフェース
  */
 
-import type { CameraMaster, CreateCameraMasterInput, UpdateCameraMasterInput } from "@/domain/gear/camera-master.entity";
+import type { CameraMaster, CreateCameraMasterInput, UpdateCameraMasterInput } from '@/domain/gear/camera-master.entity'
 
 export interface CameraMasterRepository {
-  /**
-   * 全てのカメラマスタを取得
-   */
-  findAll(): Promise<CameraMaster[]>;
 
   /**
-   * IDでカメラマスタを取得
-   */
-  findById(id: string): Promise<CameraMaster | null>;
+     * 全てのカメラマスタを取得
+     */
+  findAll(): Promise<CameraMaster[]>
 
   /**
-   * メーカーIDでフィルタリング
-   */
-  findByMakerId(makerId: string): Promise<CameraMaster[]>;
+     * IDでカメラマスタを取得
+     */
+  findById(id: string): Promise<CameraMaster | null>
 
   /**
-   * 名前で検索（部分一致）
-   */
-  search(keyword: string): Promise<CameraMaster[]>;
+     * メーカーIDでフィルタリング
+     */
+  findByMakerId(makerId: string): Promise<CameraMaster[]>
 
   /**
-   * カメラマスタを作成（管理者用）
-   */
-  create(input: CreateCameraMasterInput): Promise<CameraMaster>;
+     * 名前で検索（部分一致）
+     */
+  search(keyword: string): Promise<CameraMaster[]>
 
   /**
-   * カメラマスタを更新（管理者用）
-   */
-  update(id: string, input: UpdateCameraMasterInput): Promise<CameraMaster>;
+     * カメラマスタを作成（管理者用）
+     */
+  create(input: CreateCameraMasterInput): Promise<CameraMaster>
 
   /**
-   * カメラマスタを削除（管理者用）
-   */
-  delete(id: string): Promise<void>;
+     * カメラマスタを更新（管理者用）
+     */
+  update(id: string, input: UpdateCameraMasterInput): Promise<CameraMaster>
+
+  /**
+     * カメラマスタを削除（管理者用）
+     */
+  delete(id: string): Promise<void>
 }

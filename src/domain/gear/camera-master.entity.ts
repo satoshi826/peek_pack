@@ -3,13 +3,13 @@
  * ドメイン層: カメラマスタデータの型定義
  */
 
-import { z } from "zod";
+import { z } from 'zod'
 
 export const CameraSizeSchema = z.object({
   width: z.number(), // mm
   height: z.number(), // mm
   depth: z.number(), // mm
-});
+})
 
 export const CameraMasterSchema = z.object({
   id: z.string(),
@@ -26,16 +26,16 @@ export const CameraMasterSchema = z.object({
   size: CameraSizeSchema.optional(),
   createdAt: z.date(),
   updatedAt: z.date(),
-});
+})
 
-export type CameraMaster = z.infer<typeof CameraMasterSchema>;
+export type CameraMaster = z.infer<typeof CameraMasterSchema>
 
 export const CreateCameraMasterInputSchema = CameraMasterSchema.omit({
   id: true,
   createdAt: true,
   updatedAt: true,
-});
-export type CreateCameraMasterInput = z.infer<typeof CreateCameraMasterInputSchema>;
+})
+export type CreateCameraMasterInput = z.infer<typeof CreateCameraMasterInputSchema>
 
-export const UpdateCameraMasterInputSchema = CreateCameraMasterInputSchema.partial();
-export type UpdateCameraMasterInput = z.infer<typeof UpdateCameraMasterInputSchema>;
+export const UpdateCameraMasterInputSchema = CreateCameraMasterInputSchema.partial()
+export type UpdateCameraMasterInput = z.infer<typeof UpdateCameraMasterInputSchema>

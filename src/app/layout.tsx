@@ -1,31 +1,25 @@
-import type { Metadata } from "next";
-import { Kosugi_Maru } from "next/font/google";
-import { Toolbar } from "@/components/layout/Toolbar";
-import { ThemeProvider } from "@/components/theme-provider";
-import "./globals.css";
+import type { Metadata } from 'next'
+import { Kosugi_Maru } from 'next/font/google'
+import { Toolbar } from '@/components/layout/Toolbar'
+import { ThemeProvider } from '@/components/theme-provider'
+import './globals.css'
 
 const kosugiMaru = Kosugi_Maru({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-kosugi-maru",
-  display: "swap",
-});
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-kosugi-maru',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: "PeekMyPack - カメラギア管理",
-  description: "あなたのカメラとレンズのコレクションを管理",
-};
+  title: 'PeekMyPack - カメラギア管理',
+  description: 'あなたのカメラとレンズのコレクションを管理',
+}
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ja" suppressHydrationWarning>
-      <body
-        className={`${kosugiMaru.variable} font-sans antialiased`}
-      >
+      <body className={`${kosugiMaru.variable} font-sans antialiased bg-(--neumo-base)`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -37,5 +31,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  );
+  )
 }

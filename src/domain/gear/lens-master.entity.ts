@@ -3,15 +3,19 @@
  * ドメイン層: レンズマスタデータの型定義
  */
 
-import { z } from "zod";
+import { z } from 'zod'
 
-export const FocusTypeSchema = z.enum(["AF", "MF", "AF/MF"]);
-export type FocusType = z.infer<typeof FocusTypeSchema>;
+export const FocusTypeSchema = z.enum([
+  'AF',
+  'MF',
+  'AF/MF',
+])
+export type FocusType = z.infer<typeof FocusTypeSchema>
 
 export const LensSizeSchema = z.object({
   diameter: z.number(), // mm
   length: z.number(), // mm
-});
+})
 
 export const LensMasterSchema = z.object({
   id: z.string(),
@@ -27,16 +31,16 @@ export const LensMasterSchema = z.object({
   filterDiameter: z.number().optional(), // mm
   createdAt: z.date(),
   updatedAt: z.date(),
-});
+})
 
-export type LensMaster = z.infer<typeof LensMasterSchema>;
+export type LensMaster = z.infer<typeof LensMasterSchema>
 
 export const CreateLensMasterInputSchema = LensMasterSchema.omit({
   id: true,
   createdAt: true,
   updatedAt: true,
-});
-export type CreateLensMasterInput = z.infer<typeof CreateLensMasterInputSchema>;
+})
+export type CreateLensMasterInput = z.infer<typeof CreateLensMasterInputSchema>
 
-export const UpdateLensMasterInputSchema = CreateLensMasterInputSchema.partial();
-export type UpdateLensMasterInput = z.infer<typeof UpdateLensMasterInputSchema>;
+export const UpdateLensMasterInputSchema = CreateLensMasterInputSchema.partial()
+export type UpdateLensMasterInput = z.infer<typeof UpdateLensMasterInputSchema>

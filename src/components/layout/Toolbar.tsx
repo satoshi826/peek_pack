@@ -1,6 +1,5 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Camera } from "lucide-react";
+import Link from 'next/link'
+import { Button } from '@/components/ui_shadcn/button'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -8,24 +7,25 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { getCurrentUser } from "@/lib/auth";
-import { ThemeToggle } from "@/components/theme-toggle";
+} from '@/components/ui_shadcn/dropdown-menu'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui_shadcn/avatar'
+import { getCurrentUser } from '@/lib/auth'
+import { ThemeToggle } from '@/components/theme-toggle'
+import { Flex, Stack } from '@/components/ui_shadcn/layout'
 
 export async function Toolbar() {
-  const currentUser = await getCurrentUser();
+  const currentUser = await getCurrentUser()
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 items-center gap-4">
-        {/* Logo & App Name */}
-        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <Camera className="h-5 w-5" />
-          <span className="font-bold text-lg">PeekMyPack</span>
+    <header className="sticky top-0 z-50 w-full border-b backdrop-blur-sm">
+      <Flex align="center" gap="4" className="container h-14">
+        <Link href="/">
+          <Flex align="center" gap="2" className="hover:opacity-80 transition-opacity">
+            <span className="font-bold text-lg">PeekMyPack</span>
+          </Flex>
         </Link>
 
-        <nav className="flex items-center gap-6 flex-1">
+        {/* <Flex as="nav" align="center" gap={6} className="flex-1">
           <Link
             href="/"
             className="text-sm font-medium transition-colors hover:text-primary"
@@ -38,45 +38,50 @@ export async function Toolbar() {
           >
             ギア一覧
           </Link>
-        </nav>
+        </Flex> */}
+
+        <div className="flex-grow" />
 
         {/* Theme Toggle */}
         <ThemeToggle />
 
         {/* User Menu */}
-        {currentUser ? (
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" size="icon" className="rounded-full">
-                <Avatar className="h-8 w-8">
-                  <AvatarImage src={currentUser.profileImage} alt={currentUser.name} />
-                  <AvatarFallback>
-                    {currentUser.name.charAt(0)}
-                  </AvatarFallback>
-                </Avatar>
+        {currentUser
+          ? (
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" size="icon" className="rounded-full">
+                    <Avatar className="h-8 w-8">
+                      <AvatarImage src={currentUser.profileImage} alt={currentUser.name} />
+                      <AvatarFallback>
+                        {currentUser.name.charAt(0)}
+                      </AvatarFallback>
+                    </Avatar>
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-48" align="end">
+                  <DropdownMenuLabel>
+                    <Stack spacing="1">
+                      <p className="text-sm font-medium">{currentUser.name}</p>
+                      <p className="text-xs text-muted-foreground">
+                        {currentUser.email}
+                      </p>
+                    </Stack>
+                  </DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem>
+                    ログアウト
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            )
+
+          : (
+              <Button size="sm" asChild>
+                <Link href="/login">ログイン</Link>
               </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-48" align="end">
-              <DropdownMenuLabel>
-                <div className="flex flex-col space-y-1">
-                  <p className="text-sm font-medium">{currentUser.name}</p>
-                  <p className="text-xs text-muted-foreground">
-                    {currentUser.email}
-                  </p>
-                </div>
-              </DropdownMenuLabel>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                ログアウト
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        ) : (
-          <Button size="sm" asChild>
-            <Link href="/login">ログイン</Link>
-          </Button>
-        )}
-      </div>
+            )}
+      </Flex>
     </header>
-  );
+  )
 }
