@@ -22,7 +22,7 @@ export async function Toolbar() {
         <Flex align="center" gap={4}>
           <Link href="/">
             <Flex align="center" gap={2} className="hover:opacity-80 transition-opacity">
-              <span className="font-bold text-lg">PeekMyPack</span>
+              <span className="font-f18 text-xl tracking-wide">PeekPack</span>
             </Flex>
           </Link>
 

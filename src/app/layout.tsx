@@ -12,7 +12,7 @@ const kosugiMaru = Kosugi_Maru({
 })
 
 export const metadata: Metadata = {
-  title: 'PeekMyPack - カメラギア管理',
+  title: 'PeekPack - カメラギア管理',
   description: 'あなたのカメラとレンズのコレクションを管理',
 }
 
