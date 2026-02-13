@@ -25,6 +25,12 @@ const typographyVariants = cva(
         small: 'text-sm font-medium leading-none',
         muted: 'text-sm text-muted-foreground',
       },
+      weight: {
+        light: 'font-light',
+        normal: 'font-normal',
+        medium: 'font-medium',
+        bold: 'font-bold',
+      },
     },
     defaultVariants: {
       variant: 'p',
@@ -53,14 +59,14 @@ interface TypographyProps
   as?: React.ElementType
 }
 
-export const Typography = React.forwardRef<HTMLElement, TypographyProps>(({ variant = 'p', as, className, ...props }, ref) => {
+export const Typography = React.forwardRef<HTMLElement, TypographyProps>(({ variant = 'p', weight, as, className, ...props }, ref) => {
   const Component = as || variantElementMap[variant || 'p']
 
   return (
     <Component
       ref={ref}
       className={cn(
-        typographyVariants({ variant }),
+        typographyVariants({ variant, weight }),
         className,
       )}
       {...props}

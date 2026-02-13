@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import { Kosugi_Maru } from 'next/font/google'
+import { Zen_Kaku_Gothic_New } from 'next/font/google'
 import { Toolbar } from '@/components/layout/Toolbar'
 import { ThemeProvider } from '@/components/theme-provider'
 import './globals.css'
 
-const kosugiMaru = Kosugi_Maru({
-  weight: '400',
+const zenKakuGothicNew = Zen_Kaku_Gothic_New({
+  weight: ['300', '400', '500', '700'],
   subsets: ['latin'],
-  variable: '--font-kosugi-maru',
+  variable: '--font-zen-kaku-gothic-new',
   display: 'swap',
 })
 
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ja" suppressHydrationWarning>
-      <body className={`${kosugiMaru.variable} font-sans antialiased bg-(--neumo-base)`}>
+      <body className={`${zenKakuGothicNew.variable} font-sans antialiased bg-(--neumo-base)`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
