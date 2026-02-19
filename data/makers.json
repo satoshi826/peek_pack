@@ -1,0 +1,58 @@
+[
+  {
+    "id": "maker-001",
+    "name": "Sony",
+    "nameJa": "ソニー",
+    "website": "https://www.sony.jp/",
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-002",
+    "name": "Canon",
+    "nameJa": "キヤノン",
+    "website": "https://canon.jp/",
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-003",
+    "name": "Nikon",
+    "nameJa": "ニコン",
+    "website": "https://www.nikon-image.com/",
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-004",
+    "name": "Fujifilm",
+    "nameJa": "富士フイルム",
+    "website": "https://fujifilm-x.com/",
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-005",
+    "name": "OM SYSTEM",
+    "nameJa": "OMシステム",
+    "website": "https://jp.omsystem.com/",
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-006",
+    "name": "RICOH",
+    "nameJa": "リコー",
+    "website": "https://www.ricoh-imaging.co.jp/",
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-007",
+    "name": "Voigtländer",
+    "nameJa": "フォクトレンダー",
+    "website": "https://www.cosina.co.jp/",
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  }
+]

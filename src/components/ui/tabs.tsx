@@ -67,7 +67,7 @@ function TabsContent({
     <TabsPrimitive.Content
       data-slot="neumo-tabs-content"
       className={cn(
-        'flex-1 outline-none',
+        'flex-1 outline-none animate-[neumo-tab-in_400ms_ease-out]',
         className,
       )}
       {...props}

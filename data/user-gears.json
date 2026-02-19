@@ -1,0 +1,316 @@
+[
+  {
+    "id": "gear-1",
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-001",
+    "status": "owned",
+    "comment": "メインカメラとして使用中",
+    "photos": [],
+    "createdAt": "2026-01-20T00:00:00.000Z",
+    "updatedAt": "2026-01-20T00:00:00.000Z"
+  },
+  {
+    "id": "gear-2",
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-002",
+    "status": "owned",
+    "comment": "サブ機として活用",
+    "photos": [],
+    "createdAt": "2026-01-21T00:00:00.000Z",
+    "updatedAt": "2026-01-21T00:00:00.000Z"
+  },
+  {
+    "id": "gear-3",
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-003",
+    "status": "owned",
+    "comment": "次世代フルサイズ機が欲しい",
+    "photos": [],
+    "createdAt": "2026-01-22T00:00:00.000Z",
+    "updatedAt": "2026-01-22T00:00:00.000Z"
+  },
+  {
+    "id": "gear-4",
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-004",
+    "status": "owned",
+    "comment": "昔使っていたが売却済み",
+    "photos": [],
+    "createdAt": "2026-01-23T00:00:00.000Z",
+    "updatedAt": "2026-01-23T00:00:00.000Z"
+  },
+  {
+    "id": "gear-5",
+    "userId": "user-1",
+    "gearType": "camera",
+    "customName": "Hasselblad 500C/M",
+    "customMaker": "Hasselblad",
+    "status": "owned",
+    "comment": "いつかは手に入れたい中判フィルムカメラ",
+    "photos": [],
+    "createdAt": "2026-01-24T00:00:00.000Z",
+    "updatedAt": "2026-01-24T00:00:00.000Z"
+  },
+  {
+    "id": "gear-6",
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-005",
+    "status": "owned",
+    "comment": "ミラーレス入門機",
+    "photos": [],
+    "createdAt": "2026-01-25T00:00:00.000Z",
+    "updatedAt": "2026-01-25T00:00:00.000Z"
+  },
+  {
+    "id": "gear-7",
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-006",
+    "status": "owned",
+    "comment": "動画撮影用に検討中",
+    "photos": [],
+    "createdAt": "2026-01-26T00:00:00.000Z",
+    "updatedAt": "2026-01-26T00:00:00.000Z"
+  },
+  {
+    "id": "gear-8",
+    "userId": "user-1",
+    "gearType": "camera",
+    "customName": "Leica M6",
+    "customMaker": "Leica",
+    "status": "owned",
+    "comment": "フィルム撮影用のクラシックカメラ",
+    "photos": [],
+    "createdAt": "2026-01-27T00:00:00.000Z",
+    "updatedAt": "2026-01-27T00:00:00.000Z"
+  },
+  {
+    "id": "gear-9",
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-007",
+    "status": "owned",
+    "comment": "アクションカメラとして便利",
+    "photos": [],
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "gear-10",
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-008",
+    "status": "owned",
+    "comment": "高画素機に興味あり",
+    "photos": [],
+    "createdAt": "2026-01-29T00:00:00.000Z",
+    "updatedAt": "2026-01-29T00:00:00.000Z"
+  },
+  {
+    "id": "gear-11",
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-001",
+    "status": "owned",
+    "comment": "標準ズームレンズ",
+    "photos": [],
+    "createdAt": "2026-01-30T00:00:00.000Z",
+    "updatedAt": "2026-01-30T00:00:00.000Z"
+  },
+  {
+    "id": "gear-12",
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-002",
+    "status": "owned",
+    "comment": "大三元の広角ズーム",
+    "photos": [],
+    "createdAt": "2026-01-31T00:00:00.000Z",
+    "updatedAt": "2026-01-31T00:00:00.000Z"
+  },
+  {
+    "id": "gear-13",
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-003",
+    "status": "owned",
+    "comment": "ポートレート用の単焦点",
+    "photos": [],
+    "createdAt": "2026-02-01T00:00:00.000Z",
+    "updatedAt": "2026-02-01T00:00:00.000Z"
+  },
+  {
+    "id": "gear-14",
+    "userId": "user-1",
+    "gearType": "lens",
+    "customName": "Carl Zeiss Planar 50mm F1.4",
+    "customMaker": "Carl Zeiss",
+    "status": "wanted",
+    "comment": "次に購入したいレンズ",
+    "photos": [],
+    "createdAt": "2026-02-02T00:00:00.000Z",
+    "updatedAt": "2026-02-02T00:00:00.000Z"
+  },
+  {
+    "id": "gear-15",
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-004",
+    "status": "owned",
+    "comment": "望遠ズームで野鳥撮影に",
+    "photos": [],
+    "createdAt": "2026-02-03T00:00:00.000Z",
+    "updatedAt": "2026-02-03T00:00:00.000Z"
+  },
+  {
+    "id": "gear-16",
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-005",
+    "status": "owned",
+    "comment": "使わなくなったので売却",
+    "photos": [],
+    "createdAt": "2026-02-04T00:00:00.000Z",
+    "updatedAt": "2026-02-04T00:00:00.000Z"
+  },
+  {
+    "id": "gear-17",
+    "userId": "user-1",
+    "gearType": "lens",
+    "customName": "Voigtlander Nokton 40mm F1.2",
+    "customMaker": "Voigtlander",
+    "status": "wanted",
+    "comment": "明るい単焦点が欲しい",
+    "photos": [],
+    "createdAt": "2026-02-05T00:00:00.000Z",
+    "updatedAt": "2026-02-05T00:00:00.000Z"
+  },
+  {
+    "id": "gear-18",
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-006",
+    "status": "owned",
+    "comment": "マクロ撮影用",
+    "photos": [],
+    "createdAt": "2026-02-06T00:00:00.000Z",
+    "updatedAt": "2026-02-06T00:00:00.000Z"
+  },
+  {
+    "id": "gear-19",
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-007",
+    "status": "wanted",
+    "comment": "超広角レンズを検討中",
+    "photos": [],
+    "createdAt": "2026-02-07T00:00:00.000Z",
+    "updatedAt": "2026-02-07T00:00:00.000Z"
+  },
+  {
+    "id": "gear-20",
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-008",
+    "status": "owned",
+    "comment": "コンパクトなパンケーキレンズ",
+    "photos": [],
+    "createdAt": "2026-02-08T00:00:00.000Z",
+    "updatedAt": "2026-02-08T00:00:00.000Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-002",
+    "status": "owned",
+    "id": "gear-1770982420110",
+    "createdAt": "2026-02-13T11:33:40.111Z",
+    "updatedAt": "2026-02-13T11:33:40.111Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-002",
+    "status": "owned",
+    "id": "gear-1770982436296",
+    "createdAt": "2026-02-13T11:33:56.296Z",
+    "updatedAt": "2026-02-13T11:33:56.296Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-001",
+    "status": "wanted",
+    "id": "gear-1770982463472",
+    "createdAt": "2026-02-13T11:34:23.472Z",
+    "updatedAt": "2026-02-13T11:34:23.472Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-004",
+    "status": "previously-owned",
+    "id": "gear-1770982712592",
+    "createdAt": "2026-02-13T11:38:32.592Z",
+    "updatedAt": "2026-02-13T11:38:32.592Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-006",
+    "status": "previously-owned",
+    "id": "gear-1770982716334",
+    "createdAt": "2026-02-13T11:38:36.334Z",
+    "updatedAt": "2026-02-13T11:38:36.334Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-003",
+    "status": "previously-owned",
+    "id": "gear-1770985630714",
+    "createdAt": "2026-02-13T12:27:10.714Z",
+    "updatedAt": "2026-02-13T12:27:10.714Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-009",
+    "status": "previously-owned",
+    "id": "gear-1770985633553",
+    "createdAt": "2026-02-13T12:27:13.553Z",
+    "updatedAt": "2026-02-13T12:27:13.553Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-010",
+    "status": "previously-owned",
+    "id": "gear-1770985640410",
+    "createdAt": "2026-02-13T12:27:20.410Z",
+    "updatedAt": "2026-02-13T12:27:20.410Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-005",
+    "status": "wanted",
+    "id": "gear-1771506011193",
+    "createdAt": "2026-02-19T13:00:11.193Z",
+    "updatedAt": "2026-02-19T13:00:11.193Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-001",
+    "status": "previously-owned",
+    "id": "gear-1771506116630",
+    "createdAt": "2026-02-19T13:01:56.630Z",
+    "updatedAt": "2026-02-19T13:01:56.630Z"
+  }
+]

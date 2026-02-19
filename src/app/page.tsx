@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui_shadcn/badge'
-import { getUserOwnedGears, getUserWantedGears, getUserPreviouslyOwnedGears } from '@/actions/user-gear.actions'
+import { getUserOwnedGears, getUserWantedGears, getUserPreviouslyOwnedGears, getCameraMasters, getLensMasters } from '@/actions/user-gear.actions'
 import { getCurrentUser } from '@/lib/auth'
 import { Typography } from '@/components/ui_shadcn/typography'
 import { Flex, Stack, Container } from '@/components/ui_shadcn/layout'
@@ -21,10 +21,12 @@ export default async function Home() {
     )
   }
 
-  const [ownedGears, wantedGears, previouslyOwnedGears] = await Promise.all([
+  const [ownedGears, wantedGears, previouslyOwnedGears, cameraMasters, lensMasters] = await Promise.all([
     getUserOwnedGears(currentUser.id),
     getUserWantedGears(currentUser.id),
     getUserPreviouslyOwnedGears(currentUser.id),
+    getCameraMasters(),
+    getLensMasters(),
   ])
 
   return (
@@ -57,6 +59,9 @@ export default async function Home() {
           ownedGears={ownedGears}
           wantedGears={wantedGears}
           previouslyOwnedGears={previouslyOwnedGears}
+          cameraMasters={cameraMasters}
+          lensMasters={lensMasters}
+          userId={currentUser.id}
         />
       </Stack>
     </Container>

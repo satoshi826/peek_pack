@@ -1,0 +1,162 @@
+[
+  {
+    "id": "cam-001",
+    "name": "α7 IV",
+    "makerId": "maker-001",
+    "releaseDate": "2021-12-17T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "3300万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5.5,
+    "weight": 658,
+    "size": {
+      "width": 131,
+      "height": 96,
+      "depth": 80
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-002",
+    "name": "EOS R6 Mark II",
+    "makerId": "maker-002",
+    "releaseDate": "2022-11-24T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Canon RF",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 670,
+    "size": {
+      "width": 138,
+      "height": 98,
+      "depth": 88
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-003",
+    "name": "Z 9",
+    "makerId": "maker-003",
+    "releaseDate": "2021-12-24T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Nikon Z",
+    "resolution": "4571万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 1340,
+    "size": {
+      "width": 149,
+      "height": 150,
+      "depth": 91
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-004",
+    "name": "X-T5",
+    "makerId": "maker-004",
+    "releaseDate": "2022-11-25T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "4020万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7,
+    "weight": 557,
+    "size": {
+      "width": 130,
+      "height": 91,
+      "depth": 64
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-005",
+    "name": "OM-1",
+    "makerId": "maker-005",
+    "releaseDate": "2022-03-18T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2037万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 599,
+    "size": {
+      "width": 135,
+      "height": 92,
+      "depth": 73
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-006",
+    "name": "GR III",
+    "makerId": "maker-006",
+    "releaseDate": "2019-03-22T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": null,
+    "resolution": "2424万画素",
+    "isCompact": true,
+    "hasStabilization": true,
+    "stabilizationStops": 4,
+    "weight": 257,
+    "size": {
+      "width": 109,
+      "height": 62,
+      "depth": 33
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-007",
+    "name": "X100VI",
+    "makerId": "maker-004",
+    "releaseDate": "2024-02-20T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": null,
+    "resolution": "4020万画素",
+    "isCompact": true,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 521,
+    "size": {
+      "width": 128,
+      "height": 75,
+      "depth": 55
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-008",
+    "name": "α7C II",
+    "makerId": "maker-001",
+    "releaseDate": "2023-09-14T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "3300万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7,
+    "weight": 514,
+    "size": {
+      "width": 124,
+      "height": 71,
+      "depth": 63
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "lens-001",
+    "name": "FE 50mm F1.2 GM",
+    "makerId": "maker-001",
+    "releaseDate": "2021-04-23T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "50mm",
+    "maxAperture": "F1.2",
+    "focusType": "AF",
+    "weight": 778,
+    "size": {
+      "diameter": 87,
+      "length": 108
+    },
+    "filterDiameter": 72,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-002",
+    "name": "RF 24-70mm F2.8 L IS USM",
+    "makerId": "maker-002",
+    "releaseDate": "2021-10-28T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "24-70mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 900,
+    "size": {
+      "diameter": 88,
+      "length": 126
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-003",
+    "name": "NIKKOR Z 50mm f/1.8 S",
+    "makerId": "maker-003",
+    "releaseDate": "2018-09-27T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "50mm",
+    "maxAperture": "F1.8",
+    "focusType": "AF",
+    "weight": 415,
+    "size": {
+      "diameter": 76,
+      "length": 87
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-004",
+    "name": "XF 35mm F1.4 R",
+    "makerId": "maker-004",
+    "releaseDate": "2012-02-18T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "35mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 187,
+    "size": {
+      "diameter": 65,
+      "length": 55
+    },
+    "filterDiameter": 52,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-005",
+    "name": "M.ZUIKO DIGITAL ED 12-40mm F2.8 PRO II",
+    "makerId": "maker-005",
+    "releaseDate": "2023-11-24T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "12-40mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 382,
+    "size": {
+      "diameter": 70,
+      "length": 84
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-006",
+    "name": "FE 24-105mm F4 G OSS",
+    "makerId": "maker-001",
+    "releaseDate": "2017-11-25T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "24-105mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 663,
+    "size": {
+      "diameter": 84,
+      "length": 114
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-007",
+    "name": "RF 85mm F1.2 L USM",
+    "makerId": "maker-002",
+    "releaseDate": "2019-05-30T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "85mm",
+    "maxAperture": "F1.2",
+    "focusType": "AF",
+    "weight": 1195,
+    "size": {
+      "diameter": 104,
+      "length": 118
+    },
+    "filterDiameter": 86,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-008",
+    "name": "NIKKOR Z 24-70mm f/2.8 S",
+    "makerId": "maker-003",
+    "releaseDate": "2018-09-27T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "24-70mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 805,
+    "size": {
+      "diameter": 89,
+      "length": 126
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-009",
+    "name": "XF 56mm F1.2 R WR",
+    "makerId": "maker-004",
+    "releaseDate": "2023-09-21T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "56mm",
+    "maxAperture": "F1.2",
+    "focusType": "AF",
+    "weight": 445,
+    "size": {
+      "diameter": 74,
+      "length": 82
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-010",
+    "name": "Voigtländer NOKTON 50mm F1.2 Aspherical",
+    "makerId": "maker-007",
+    "releaseDate": "2020-07-31T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "50mm",
+    "maxAperture": "F1.2",
+    "focusType": "MF",
+    "weight": 434,
+    "size": {
+      "diameter": 68,
+      "length": 60
+    },
+    "filterDiameter": 58,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  }
+]

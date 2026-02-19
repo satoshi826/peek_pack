@@ -1,0 +1,11 @@
+[
+  {
+    "id": "user-1",
+    "name": "山田太郎",
+    "email": "yamada@example.com",
+    "profileImage": "/images/default-avatar.png",
+    "bio": "写真が好きなエンジニアです",
+    "createdAt": "2026-01-20T00:00:00.000Z",
+    "updatedAt": "2026-01-20T00:00:00.000Z"
+  }
+]
