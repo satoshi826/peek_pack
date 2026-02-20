@@ -4,6 +4,7 @@
     "name": "Sony",
     "nameJa": "ソニー",
     "website": "https://www.sony.jp/",
+    "productTypes": ["camera", "lens"],
     "createdAt": "2026-01-28T00:00:00.000Z",
     "updatedAt": "2026-01-28T00:00:00.000Z"
   },
@@ -12,6 +13,7 @@
     "name": "Canon",
     "nameJa": "キヤノン",
     "website": "https://canon.jp/",
+    "productTypes": ["camera", "lens"],
     "createdAt": "2026-01-28T00:00:00.000Z",
     "updatedAt": "2026-01-28T00:00:00.000Z"
   },
@@ -20,6 +22,7 @@
     "name": "Nikon",
     "nameJa": "ニコン",
     "website": "https://www.nikon-image.com/",
+    "productTypes": ["camera", "lens"],
     "createdAt": "2026-01-28T00:00:00.000Z",
     "updatedAt": "2026-01-28T00:00:00.000Z"
   },
@@ -28,6 +31,7 @@
     "name": "Fujifilm",
     "nameJa": "富士フイルム",
     "website": "https://fujifilm-x.com/",
+    "productTypes": ["camera", "lens"],
     "createdAt": "2026-01-28T00:00:00.000Z",
     "updatedAt": "2026-01-28T00:00:00.000Z"
   },
@@ -36,6 +40,7 @@
     "name": "OM SYSTEM",
     "nameJa": "OMシステム",
     "website": "https://jp.omsystem.com/",
+    "productTypes": ["camera", "lens"],
     "createdAt": "2026-01-28T00:00:00.000Z",
     "updatedAt": "2026-01-28T00:00:00.000Z"
   },
@@ -44,6 +49,7 @@
     "name": "RICOH",
     "nameJa": "リコー",
     "website": "https://www.ricoh-imaging.co.jp/",
+    "productTypes": ["camera", "lens"],
     "createdAt": "2026-01-28T00:00:00.000Z",
     "updatedAt": "2026-01-28T00:00:00.000Z"
   },
@@ -52,6 +58,52 @@
     "name": "Voigtländer",
     "nameJa": "フォクトレンダー",
     "website": "https://www.cosina.co.jp/",
+    "productTypes": ["lens"],
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-008",
+    "name": "Panasonic",
+    "nameJa": "パナソニック",
+    "website": "https://panasonic.jp/dc/",
+    "productTypes": ["camera", "lens"],
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-009",
+    "name": "Sigma",
+    "nameJa": "シグマ",
+    "website": "https://www.sigma-global.com/jp/",
+    "productTypes": ["lens"],
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-010",
+    "name": "Leica",
+    "nameJa": "ライカ",
+    "website": "https://jp.leica-camera.com/",
+    "productTypes": ["camera", "lens"],
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-011",
+    "name": "Hasselblad",
+    "nameJa": "ハッセルブラッド",
+    "website": "https://www.hasselblad.com/",
+    "productTypes": ["camera", "lens"],
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "maker-012",
+    "name": "Tamron",
+    "nameJa": "タムロン",
+    "website": "https://www.tamron.jp/",
+    "productTypes": ["lens"],
     "createdAt": "2026-01-28T00:00:00.000Z",
     "updatedAt": "2026-01-28T00:00:00.000Z"
   }

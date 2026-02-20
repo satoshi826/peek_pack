@@ -312,5 +312,23 @@
     "id": "gear-1771506116630",
     "createdAt": "2026-02-19T13:01:56.630Z",
     "updatedAt": "2026-02-19T13:01:56.630Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "camera",
+    "masterId": "cam-007",
+    "status": "owned",
+    "id": "gear-1771508486324",
+    "createdAt": "2026-02-19T13:41:26.324Z",
+    "updatedAt": "2026-02-19T13:41:26.324Z"
+  },
+  {
+    "userId": "user-1",
+    "gearType": "lens",
+    "masterId": "lens-067",
+    "status": "owned",
+    "id": "gear-1771511256275",
+    "createdAt": "2026-02-19T14:27:36.275Z",
+    "updatedAt": "2026-02-19T14:27:36.275Z"
   }
 ]

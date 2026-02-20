@@ -178,5 +178,1625 @@
     "filterDiameter": 58,
     "createdAt": "2026-01-28T00:00:00.000Z",
     "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-011",
+    "name": "FE 24-70mm F2.8 GM II",
+    "makerId": "maker-001",
+    "releaseDate": "2022-05-19T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "24-70mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 695,
+    "size": {
+      "diameter": 88,
+      "length": 120
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-012",
+    "name": "FE 85mm F1.4 GM",
+    "makerId": "maker-001",
+    "releaseDate": "2016-02-19T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "85mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 820,
+    "size": {
+      "diameter": 90,
+      "length": 108
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-013",
+    "name": "FE 35mm F1.4 GM",
+    "makerId": "maker-001",
+    "releaseDate": "2021-02-25T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "35mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 524,
+    "size": {
+      "diameter": 76,
+      "length": 96
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-014",
+    "name": "FE 20mm F1.8 G",
+    "makerId": "maker-001",
+    "releaseDate": "2020-03-17T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "20mm",
+    "maxAperture": "F1.8",
+    "focusType": "AF",
+    "weight": 373,
+    "size": {
+      "diameter": 74,
+      "length": 84
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-015",
+    "name": "FE 70-200mm F2.8 GM OSS II",
+    "makerId": "maker-001",
+    "releaseDate": "2021-11-18T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "70-200mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 1045,
+    "size": {
+      "diameter": 88,
+      "length": 200
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-016",
+    "name": "FE 16-35mm F2.8 GM II",
+    "makerId": "maker-001",
+    "releaseDate": "2023-09-14T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "16-35mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 547,
+    "size": {
+      "diameter": 88,
+      "length": 111
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-017",
+    "name": "FE 90mm F2.8 Macro G OSS",
+    "makerId": "maker-001",
+    "releaseDate": "2015-03-19T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "90mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 602,
+    "size": {
+      "diameter": 79,
+      "length": 130
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-018",
+    "name": "RF 50mm F1.2 L USM",
+    "makerId": "maker-002",
+    "releaseDate": "2018-09-05T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "50mm",
+    "maxAperture": "F1.2",
+    "focusType": "AF",
+    "weight": 950,
+    "size": {
+      "diameter": 90,
+      "length": 108
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-019",
+    "name": "RF 15-35mm F2.8 L IS USM",
+    "makerId": "maker-002",
+    "releaseDate": "2019-07-11T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "15-35mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 840,
+    "size": {
+      "diameter": 89,
+      "length": 127
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-020",
+    "name": "RF 70-200mm F2.8 L IS USM",
+    "makerId": "maker-002",
+    "releaseDate": "2019-12-05T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "70-200mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 1070,
+    "size": {
+      "diameter": 90,
+      "length": 146
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-021",
+    "name": "RF 100mm F2.8 L Macro IS USM",
+    "makerId": "maker-002",
+    "releaseDate": "2021-06-17T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "100mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 730,
+    "size": {
+      "diameter": 82,
+      "length": 148
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-022",
+    "name": "RF 35mm F1.8 Macro IS STM",
+    "makerId": "maker-002",
+    "releaseDate": "2018-09-05T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "35mm",
+    "maxAperture": "F1.8",
+    "focusType": "AF",
+    "weight": 305,
+    "size": {
+      "diameter": 75,
+      "length": 63
+    },
+    "filterDiameter": 52,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-023",
+    "name": "RF 24-105mm F4 L IS USM",
+    "makerId": "maker-002",
+    "releaseDate": "2018-09-05T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "24-105mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 700,
+    "size": {
+      "diameter": 83,
+      "length": 107
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-024",
+    "name": "RF 28-70mm F2 L USM",
+    "makerId": "maker-002",
+    "releaseDate": "2018-09-05T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "28-70mm",
+    "maxAperture": "F2",
+    "focusType": "AF",
+    "weight": 1430,
+    "size": {
+      "diameter": 104,
+      "length": 139
+    },
+    "filterDiameter": 95,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-025",
+    "name": "NIKKOR Z 85mm f/1.8 S",
+    "makerId": "maker-003",
+    "releaseDate": "2019-09-25T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "85mm",
+    "maxAperture": "F1.8",
+    "focusType": "AF",
+    "weight": 470,
+    "size": {
+      "diameter": 75,
+      "length": 99
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-026",
+    "name": "NIKKOR Z 24-120mm f/4 S",
+    "makerId": "maker-003",
+    "releaseDate": "2021-10-05T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "24-120mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 630,
+    "size": {
+      "diameter": 84,
+      "length": 114
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-027",
+    "name": "NIKKOR Z 70-200mm f/2.8 VR S",
+    "makerId": "maker-003",
+    "releaseDate": "2020-02-13T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "70-200mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 1360,
+    "size": {
+      "diameter": 89,
+      "length": 220
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-028",
+    "name": "NIKKOR Z 14-30mm f/4 S",
+    "makerId": "maker-003",
+    "releaseDate": "2018-09-27T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "14-30mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 485,
+    "size": {
+      "diameter": 89,
+      "length": 86
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-029",
+    "name": "NIKKOR Z 35mm f/1.8 S",
+    "makerId": "maker-003",
+    "releaseDate": "2018-09-27T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "35mm",
+    "maxAperture": "F1.8",
+    "focusType": "AF",
+    "weight": 370,
+    "size": {
+      "diameter": 73,
+      "length": 86
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-030",
+    "name": "NIKKOR Z MC 105mm f/2.8 VR S",
+    "makerId": "maker-003",
+    "releaseDate": "2021-07-16T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "105mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 630,
+    "size": {
+      "diameter": 85,
+      "length": 140
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-031",
+    "name": "XF 16-55mm F2.8 R LM WR",
+    "makerId": "maker-004",
+    "releaseDate": "2015-02-18T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "16-55mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 655,
+    "size": {
+      "diameter": 83,
+      "length": 106
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-032",
+    "name": "XF 50-140mm F2.8 R LM OIS WR",
+    "makerId": "maker-004",
+    "releaseDate": "2015-09-17T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "50-140mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 995,
+    "size": {
+      "diameter": 83,
+      "length": 176
+    },
+    "filterDiameter": 72,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-033",
+    "name": "XF 23mm F1.4 R LM WR",
+    "makerId": "maker-004",
+    "releaseDate": "2021-09-29T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "23mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 375,
+    "size": {
+      "diameter": 71,
+      "length": 77
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-034",
+    "name": "XF 18-55mm F2.8-4 R LM OIS",
+    "makerId": "maker-004",
+    "releaseDate": "2012-09-15T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "18-55mm",
+    "maxAperture": "F2.8-4",
+    "focusType": "AF",
+    "weight": 310,
+    "size": {
+      "diameter": 65,
+      "length": 70
+    },
+    "filterDiameter": 58,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-035",
+    "name": "XF 16mm F1.4 R WR",
+    "makerId": "maker-004",
+    "releaseDate": "2015-07-16T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "16mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 375,
+    "size": {
+      "diameter": 74,
+      "length": 73
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-036",
+    "name": "XF 80mm F2.8 R LM OIS WR Macro",
+    "makerId": "maker-004",
+    "releaseDate": "2017-11-30T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "80mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 750,
+    "size": {
+      "diameter": 80,
+      "length": 130
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-037",
+    "name": "M.ZUIKO DIGITAL ED 40-150mm F2.8 PRO",
+    "makerId": "maker-005",
+    "releaseDate": "2015-01-29T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "40-150mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 880,
+    "size": {
+      "diameter": 80,
+      "length": 160
+    },
+    "filterDiameter": 72,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-038",
+    "name": "M.ZUIKO DIGITAL ED 7-14mm F2.8 PRO",
+    "makerId": "maker-005",
+    "releaseDate": "2015-06-26T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "7-14mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 534,
+    "size": {
+      "diameter": 79,
+      "length": 106
+    },
+    "filterDiameter": null,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-039",
+    "name": "M.ZUIKO DIGITAL ED 12-100mm F4 IS PRO",
+    "makerId": "maker-005",
+    "releaseDate": "2016-09-22T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "12-100mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 561,
+    "size": {
+      "diameter": 78,
+      "length": 116
+    },
+    "filterDiameter": 72,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-040",
+    "name": "M.ZUIKO DIGITAL ED 25mm F1.2 PRO",
+    "makerId": "maker-005",
+    "releaseDate": "2016-11-18T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "25mm",
+    "maxAperture": "F1.2",
+    "focusType": "AF",
+    "weight": 410,
+    "size": {
+      "diameter": 70,
+      "length": 87
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-041",
+    "name": "M.ZUIKO DIGITAL ED 45mm F1.2 PRO",
+    "makerId": "maker-005",
+    "releaseDate": "2018-01-26T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "45mm",
+    "maxAperture": "F1.2",
+    "focusType": "AF",
+    "weight": 410,
+    "size": {
+      "diameter": 70,
+      "length": 85
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-042",
+    "name": "LUMIX S 50mm F1.8",
+    "makerId": "maker-008",
+    "releaseDate": "2019-03-21T00:00:00.000Z",
+    "lensMount": "Leica L",
+    "focalLength": "50mm",
+    "maxAperture": "F1.8",
+    "focusType": "AF",
+    "weight": 300,
+    "size": {
+      "diameter": 74,
+      "length": 83
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-043",
+    "name": "LUMIX S 24-105mm F4 Macro OIS",
+    "makerId": "maker-008",
+    "releaseDate": "2019-03-21T00:00:00.000Z",
+    "lensMount": "Leica L",
+    "focalLength": "24-105mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 680,
+    "size": {
+      "diameter": 84,
+      "length": 125
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-044",
+    "name": "LUMIX S 70-200mm F4 OIS",
+    "makerId": "maker-008",
+    "releaseDate": "2019-09-25T00:00:00.000Z",
+    "lensMount": "Leica L",
+    "focalLength": "70-200mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 955,
+    "size": {
+      "diameter": 84,
+      "length": 179
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-045",
+    "name": "LUMIX S PRO 70-200mm F2.8 OIS",
+    "makerId": "maker-008",
+    "releaseDate": "2020-08-25T00:00:00.000Z",
+    "lensMount": "Leica L",
+    "focalLength": "70-200mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 1605,
+    "size": {
+      "diameter": 94,
+      "length": 208
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-046",
+    "name": "LEICA DG VARIO-ELMARIT 12-60mm F2.8-4.0",
+    "makerId": "maker-008",
+    "releaseDate": "2017-10-20T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "12-60mm",
+    "maxAperture": "F2.8-4",
+    "focusType": "AF",
+    "weight": 320,
+    "size": {
+      "diameter": 68,
+      "length": 86
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-047",
+    "name": "LEICA DG SUMMILUX 25mm F1.4 II",
+    "makerId": "maker-008",
+    "releaseDate": "2021-11-25T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "25mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 205,
+    "size": {
+      "diameter": 64,
+      "length": 54
+    },
+    "filterDiameter": 46,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-048",
+    "name": "LUMIX G 42.5mm F1.7 ASPH. POWER OIS",
+    "makerId": "maker-008",
+    "releaseDate": "2015-12-17T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "42.5mm",
+    "maxAperture": "F1.7",
+    "focusType": "AF",
+    "weight": 130,
+    "size": {
+      "diameter": 55,
+      "length": 50
+    },
+    "filterDiameter": 37,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-049",
+    "name": "SIGMA 35mm F1.4 DG DN Art",
+    "makerId": "maker-009",
+    "releaseDate": "2021-07-29T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "35mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 640,
+    "size": {
+      "diameter": 77,
+      "length": 111
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-050",
+    "name": "SIGMA 24-70mm F2.8 DG DN Art",
+    "makerId": "maker-009",
+    "releaseDate": "2019-07-11T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "24-70mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 835,
+    "size": {
+      "diameter": 88,
+      "length": 123
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-051",
+    "name": "SIGMA 85mm F1.4 DG DN Art",
+    "makerId": "maker-009",
+    "releaseDate": "2020-07-09T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "85mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 630,
+    "size": {
+      "diameter": 87,
+      "length": 94
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-052",
+    "name": "SIGMA 14-24mm F2.8 DG DN Art",
+    "makerId": "maker-009",
+    "releaseDate": "2019-11-21T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "14-24mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 795,
+    "size": {
+      "diameter": 88,
+      "length": 131
+    },
+    "filterDiameter": null,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-053",
+    "name": "SIGMA 105mm F2.8 DG DN Macro Art",
+    "makerId": "maker-009",
+    "releaseDate": "2021-03-18T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "105mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 715,
+    "size": {
+      "diameter": 77,
+      "length": 148
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-054",
+    "name": "TAMRON 28-75mm F2.8 Di III VXD G2",
+    "makerId": "maker-012",
+    "releaseDate": "2021-08-26T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "28-75mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 540,
+    "size": {
+      "diameter": 76,
+      "length": 118
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-055",
+    "name": "TAMRON 70-180mm F2.8 Di III VXD",
+    "makerId": "maker-012",
+    "releaseDate": "2020-05-14T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "70-180mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 810,
+    "size": {
+      "diameter": 81,
+      "length": 149
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-056",
+    "name": "TAMRON 17-28mm F2.8 Di III RXD",
+    "makerId": "maker-012",
+    "releaseDate": "2019-07-18T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "17-28mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 420,
+    "size": {
+      "diameter": 73,
+      "length": 99
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-057",
+    "name": "TAMRON 35-150mm F2-2.8 Di III VXD",
+    "makerId": "maker-012",
+    "releaseDate": "2021-10-14T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "35-150mm",
+    "maxAperture": "F2-2.8",
+    "focusType": "AF",
+    "weight": 1165,
+    "size": {
+      "diameter": 84,
+      "length": 158
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-058",
+    "name": "Voigtländer APO-LANTHAR 50mm F2 Aspherical",
+    "makerId": "maker-007",
+    "releaseDate": "2018-09-20T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "50mm",
+    "maxAperture": "F2",
+    "focusType": "MF",
+    "weight": 331,
+    "size": {
+      "diameter": 61,
+      "length": 53
+    },
+    "filterDiameter": 52,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-059",
+    "name": "Voigtländer NOKTON 35mm F1.2 Aspherical III",
+    "makerId": "maker-007",
+    "releaseDate": "2023-11-24T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "35mm",
+    "maxAperture": "F1.2",
+    "focusType": "MF",
+    "weight": 353,
+    "size": {
+      "diameter": 63,
+      "length": 59
+    },
+    "filterDiameter": 58,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-060",
+    "name": "Voigtländer MACRO APO-LANTHAR 65mm F2 Aspherical",
+    "makerId": "maker-007",
+    "releaseDate": "2019-08-29T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "65mm",
+    "maxAperture": "F2",
+    "focusType": "MF",
+    "weight": 568,
+    "size": {
+      "diameter": 69,
+      "length": 80
+    },
+    "filterDiameter": 58,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-061",
+    "name": "APO-Summicron-SL 35mm f/2 ASPH.",
+    "makerId": "maker-010",
+    "releaseDate": "2019-05-30T00:00:00.000Z",
+    "lensMount": "Leica L",
+    "focalLength": "35mm",
+    "maxAperture": "F2",
+    "focusType": "AF",
+    "weight": 910,
+    "size": {
+      "diameter": 88,
+      "length": 107
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-062",
+    "name": "APO-Summicron-SL 50mm f/2 ASPH.",
+    "makerId": "maker-010",
+    "releaseDate": "2018-11-06T00:00:00.000Z",
+    "lensMount": "Leica L",
+    "focalLength": "50mm",
+    "maxAperture": "F2",
+    "focusType": "AF",
+    "weight": 865,
+    "size": {
+      "diameter": 88,
+      "length": 102
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-063",
+    "name": "Summilux-SL 50mm f/1.4 ASPH.",
+    "makerId": "maker-010",
+    "releaseDate": "2018-09-25T00:00:00.000Z",
+    "lensMount": "Leica L",
+    "focalLength": "50mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 1100,
+    "size": {
+      "diameter": 88,
+      "length": 130
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-064",
+    "name": "Vario-Elmarit-SL 24-70mm f/2.8 ASPH.",
+    "makerId": "maker-010",
+    "releaseDate": "2017-11-21T00:00:00.000Z",
+    "lensMount": "Leica L",
+    "focalLength": "24-70mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 1100,
+    "size": {
+      "diameter": 91,
+      "length": 138
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-065",
+    "name": "XC 15-45mm F3.5-5.6 OIS PZ",
+    "makerId": "maker-004",
+    "releaseDate": "2018-02-15T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "15-45mm",
+    "maxAperture": "F3.5-5.6",
+    "focusType": "AF",
+    "weight": 135,
+    "size": {
+      "diameter": 63,
+      "length": 45
+    },
+    "filterDiameter": 52,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-066",
+    "name": "XF 10-24mm F4 R OIS WR",
+    "makerId": "maker-004",
+    "releaseDate": "2017-11-30T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "10-24mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 410,
+    "size": {
+      "diameter": 78,
+      "length": 87
+    },
+    "filterDiameter": 72,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-067",
+    "name": "XF 50mm F1.0 R WR",
+    "makerId": "maker-004",
+    "releaseDate": "2020-09-03T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "50mm",
+    "maxAperture": "F1",
+    "focusType": "AF",
+    "weight": 845,
+    "size": {
+      "diameter": 87,
+      "length": 103
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-068",
+    "name": "XF 33mm F1.4 R LM WR",
+    "makerId": "maker-004",
+    "releaseDate": "2021-09-02T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "33mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 360,
+    "size": {
+      "diameter": 68,
+      "length": 73
+    },
+    "filterDiameter": 58,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-069",
+    "name": "XF 70-300mm F4-5.6 R LM OIS WR",
+    "makerId": "maker-004",
+    "releaseDate": "2021-03-02T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "70-300mm",
+    "maxAperture": "F4-5.6",
+    "focusType": "AF",
+    "weight": 580,
+    "size": {
+      "diameter": 75,
+      "length": 132
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-070",
+    "name": "E 16-55mm F2.8 G",
+    "makerId": "maker-001",
+    "releaseDate": "2019-07-25T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "16-55mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 494,
+    "size": {
+      "diameter": 73,
+      "length": 100
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-071",
+    "name": "E 70-350mm F4.5-6.3 G OSS",
+    "makerId": "maker-001",
+    "releaseDate": "2019-10-03T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "70-350mm",
+    "maxAperture": "F4.5-6.3",
+    "focusType": "AF",
+    "weight": 625,
+    "size": {
+      "diameter": 77,
+      "length": 142
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-072",
+    "name": "FE 24mm F1.4 GM",
+    "makerId": "maker-001",
+    "releaseDate": "2018-10-25T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "24mm",
+    "maxAperture": "F1.4",
+    "focusType": "AF",
+    "weight": 445,
+    "size": {
+      "diameter": 75,
+      "length": 92
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-073",
+    "name": "FE 135mm F1.8 GM",
+    "makerId": "maker-001",
+    "releaseDate": "2019-02-26T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "135mm",
+    "maxAperture": "F1.8",
+    "focusType": "AF",
+    "weight": 950,
+    "size": {
+      "diameter": 90,
+      "length": 127
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-074",
+    "name": "FE 100-400mm F4.5-5.6 GM OSS",
+    "makerId": "maker-001",
+    "releaseDate": "2017-04-05T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "100-400mm",
+    "maxAperture": "F4.5-5.6",
+    "focusType": "AF",
+    "weight": 1395,
+    "size": {
+      "diameter": 94,
+      "length": 205
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-075",
+    "name": "NIKKOR Z 40mm f/2",
+    "makerId": "maker-003",
+    "releaseDate": "2021-09-29T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "40mm",
+    "maxAperture": "F2",
+    "focusType": "AF",
+    "weight": 170,
+    "size": {
+      "diameter": 70,
+      "length": 46
+    },
+    "filterDiameter": 52,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-076",
+    "name": "NIKKOR Z 28mm f/2.8",
+    "makerId": "maker-003",
+    "releaseDate": "2021-09-29T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "28mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 160,
+    "size": {
+      "diameter": 70,
+      "length": 43
+    },
+    "filterDiameter": 52,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-077",
+    "name": "NIKKOR Z 24-200mm f/4-6.3 VR",
+    "makerId": "maker-003",
+    "releaseDate": "2020-05-21T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "24-200mm",
+    "maxAperture": "F4-6.3",
+    "focusType": "AF",
+    "weight": 570,
+    "size": {
+      "diameter": 77,
+      "length": 114
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-078",
+    "name": "NIKKOR Z 100-400mm f/4.5-5.6 VR S",
+    "makerId": "maker-003",
+    "releaseDate": "2022-03-04T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "100-400mm",
+    "maxAperture": "F4.5-5.6",
+    "focusType": "AF",
+    "weight": 1355,
+    "size": {
+      "diameter": 98,
+      "length": 220
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-079",
+    "name": "RF 16mm F2.8 STM",
+    "makerId": "maker-002",
+    "releaseDate": "2021-10-14T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "16mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 165,
+    "size": {
+      "diameter": 69,
+      "length": 41
+    },
+    "filterDiameter": 43,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-080",
+    "name": "RF 100-500mm F4.5-7.1 L IS USM",
+    "makerId": "maker-002",
+    "releaseDate": "2020-07-09T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "100-500mm",
+    "maxAperture": "F4.5-7.1",
+    "focusType": "AF",
+    "weight": 1370,
+    "size": {
+      "diameter": 94,
+      "length": 208
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-081",
+    "name": "RF 600mm F11 IS STM",
+    "makerId": "maker-002",
+    "releaseDate": "2020-07-09T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "600mm",
+    "maxAperture": "F11",
+    "focusType": "AF",
+    "weight": 930,
+    "size": {
+      "diameter": 93,
+      "length": 200
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-082",
+    "name": "RF 800mm F11 IS STM",
+    "makerId": "maker-002",
+    "releaseDate": "2020-07-09T00:00:00.000Z",
+    "lensMount": "Canon RF",
+    "focalLength": "800mm",
+    "maxAperture": "F11",
+    "focusType": "AF",
+    "weight": 1260,
+    "size": {
+      "diameter": 102,
+      "length": 282
+    },
+    "filterDiameter": 95,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-083",
+    "name": "M.ZUIKO DIGITAL ED 8-25mm F4 PRO",
+    "makerId": "maker-005",
+    "releaseDate": "2020-10-23T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "8-25mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 411,
+    "size": {
+      "diameter": 77,
+      "length": 88
+    },
+    "filterDiameter": 72,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-084",
+    "name": "M.ZUIKO DIGITAL ED 17mm F1.2 PRO",
+    "makerId": "maker-005",
+    "releaseDate": "2019-10-18T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "17mm",
+    "maxAperture": "F1.2",
+    "focusType": "AF",
+    "weight": 390,
+    "size": {
+      "diameter": 69,
+      "length": 87
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-085",
+    "name": "M.ZUIKO DIGITAL ED 100-400mm F5-6.3 IS",
+    "makerId": "maker-005",
+    "releaseDate": "2020-09-04T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "100-400mm",
+    "maxAperture": "F5-6.3",
+    "focusType": "AF",
+    "weight": 1120,
+    "size": {
+      "diameter": 87,
+      "length": 206
+    },
+    "filterDiameter": 72,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-086",
+    "name": "GF 50mm F3.5 R LM WR",
+    "makerId": "maker-004",
+    "releaseDate": "2017-01-19T00:00:00.000Z",
+    "lensMount": "Fujifilm G",
+    "focalLength": "50mm",
+    "maxAperture": "F3.5",
+    "focusType": "AF",
+    "weight": 335,
+    "size": {
+      "diameter": 84,
+      "length": 66
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-087",
+    "name": "GF 32-64mm F4 R LM WR",
+    "makerId": "maker-004",
+    "releaseDate": "2017-12-14T00:00:00.000Z",
+    "lensMount": "Fujifilm G",
+    "focalLength": "32-64mm",
+    "maxAperture": "F4",
+    "focusType": "AF",
+    "weight": 875,
+    "size": {
+      "diameter": 92,
+      "length": 112
+    },
+    "filterDiameter": 82,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-088",
+    "name": "GF 80mm F1.7 R WR",
+    "makerId": "maker-004",
+    "releaseDate": "2019-09-25T00:00:00.000Z",
+    "lensMount": "Fujifilm G",
+    "focalLength": "80mm",
+    "maxAperture": "F1.7",
+    "focusType": "AF",
+    "weight": 795,
+    "size": {
+      "diameter": 94,
+      "length": 100
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-089",
+    "name": "XC 50-230mm F4.5-6.7 OIS II",
+    "makerId": "maker-004",
+    "releaseDate": "2015-02-01T00:00:00.000Z",
+    "lensMount": "Fujifilm X",
+    "focalLength": "50-230mm",
+    "maxAperture": "F4.5-6.7",
+    "focusType": "AF",
+    "weight": 375,
+    "size": {
+      "diameter": 70,
+      "length": 111
+    },
+    "filterDiameter": 58,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-090",
+    "name": "HD PENTAX-D FA 21mm F2.4ED Limited DC WR",
+    "makerId": "maker-006",
+    "releaseDate": "2019-06-21T00:00:00.000Z",
+    "lensMount": "Pentax K",
+    "focalLength": "21mm",
+    "maxAperture": "F2.4",
+    "focusType": "AF",
+    "weight": 250,
+    "size": {
+      "diameter": 63,
+      "length": 70
+    },
+    "filterDiameter": 49,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-091",
+    "name": "HD PENTAX-DA 55-300mm F4.5-6.3ED PLM WR RE",
+    "makerId": "maker-006",
+    "releaseDate": "2021-04-23T00:00:00.000Z",
+    "lensMount": "Pentax K",
+    "focalLength": "55-300mm",
+    "maxAperture": "F4.5-6.3",
+    "focusType": "AF",
+    "weight": 442,
+    "size": {
+      "diameter": 76,
+      "length": 127
+    },
+    "filterDiameter": 58,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-092",
+    "name": "LEICA DG VARIO-SUMMILUX 10-25mm F1.7",
+    "makerId": "maker-008",
+    "releaseDate": "2019-05-23T00:00:00.000Z",
+    "lensMount": "Micro Four Thirds",
+    "focalLength": "10-25mm",
+    "maxAperture": "F1.7",
+    "focusType": "AF",
+    "weight": 690,
+    "size": {
+      "diameter": 78,
+      "length": 128
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-093",
+    "name": "TAMRON 20mm F2.8 Di III OSD M1:2",
+    "makerId": "maker-012",
+    "releaseDate": "2019-12-19T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "20mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 220,
+    "size": {
+      "diameter": 73,
+      "length": 64
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-094",
+    "name": "TAMRON 50-400mm F4.5-6.3 Di III VC VXD",
+    "makerId": "maker-012",
+    "releaseDate": "2023-09-14T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "50-400mm",
+    "maxAperture": "F4.5-6.3",
+    "focusType": "AF",
+    "weight": 1155,
+    "size": {
+      "diameter": 84,
+      "length": 184
+    },
+    "filterDiameter": 77,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-095",
+    "name": "SIGMA 65mm F2 DG DN Contemporary",
+    "makerId": "maker-009",
+    "releaseDate": "2020-10-22T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "65mm",
+    "maxAperture": "F2",
+    "focusType": "AF",
+    "weight": 405,
+    "size": {
+      "diameter": 72,
+      "length": 74
+    },
+    "filterDiameter": 62,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-096",
+    "name": "SIGMA 28-70mm F2.8 DG DN Contemporary",
+    "makerId": "maker-009",
+    "releaseDate": "2021-11-18T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "28-70mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 470,
+    "size": {
+      "diameter": 73,
+      "length": 101
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-097",
+    "name": "Voigtländer NOKTON 40mm F1.2 Aspherical",
+    "makerId": "maker-007",
+    "releaseDate": "2019-07-25T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "40mm",
+    "maxAperture": "F1.2",
+    "focusType": "MF",
+    "weight": 540,
+    "size": {
+      "diameter": 74,
+      "length": 59
+    },
+    "filterDiameter": 58,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-098",
+    "name": "FE 200-600mm F5.6-6.3 G OSS",
+    "makerId": "maker-001",
+    "releaseDate": "2019-07-25T00:00:00.000Z",
+    "lensMount": "Sony E",
+    "focalLength": "200-600mm",
+    "maxAperture": "F5.6-6.3",
+    "focusType": "AF",
+    "weight": 2115,
+    "size": {
+      "diameter": 112,
+      "length": 318
+    },
+    "filterDiameter": 95,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-099",
+    "name": "LUMIX S 85mm F1.8",
+    "makerId": "maker-008",
+    "releaseDate": "2020-03-24T00:00:00.000Z",
+    "lensMount": "Leica L",
+    "focalLength": "85mm",
+    "maxAperture": "F1.8",
+    "focusType": "AF",
+    "weight": 355,
+    "size": {
+      "diameter": 74,
+      "length": 82
+    },
+    "filterDiameter": 67,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "lens-100",
+    "name": "NIKKOR Z 26mm f/2.8",
+    "makerId": "maker-003",
+    "releaseDate": "2022-09-29T00:00:00.000Z",
+    "lensMount": "Nikon Z",
+    "focalLength": "26mm",
+    "maxAperture": "F2.8",
+    "focusType": "AF",
+    "weight": 125,
+    "size": {
+      "diameter": 70,
+      "length": 24
+    },
+    "filterDiameter": 52,
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
   }
 ]

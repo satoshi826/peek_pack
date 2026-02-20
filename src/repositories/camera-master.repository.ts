@@ -5,6 +5,19 @@
 
 import type { CameraMaster, CreateCameraMasterInput, UpdateCameraMasterInput } from '@/domain/gear/camera-master.entity'
 
+export interface CameraSearchFilters {
+  query?: string
+  makerId?: string
+  lensMount?: string
+  sensorSize?: string
+  isCompact?: boolean
+}
+
+export interface CameraDistinctValues {
+  lensMounts: string[]
+  sensorSizes: string[]
+}
+
 export interface CameraMasterRepository {
 
   /**
@@ -26,6 +39,16 @@ export interface CameraMasterRepository {
      * 名前で検索（部分一致）
      */
   search(keyword: string): Promise<CameraMaster[]>
+
+  /**
+     * フィルタ条件付き検索
+     */
+  searchWithFilters(params: CameraSearchFilters): Promise<CameraMaster[]>
+
+  /**
+     * フィルタ選択肢用のユニーク値を取得
+     */
+  getDistinctValues(): Promise<CameraDistinctValues>
 
   /**
      * カメラマスタを作成（管理者用）

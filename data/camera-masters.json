@@ -158,5 +158,1817 @@
     },
     "createdAt": "2026-01-28T00:00:00.000Z",
     "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-009",
+    "name": "α7R V",
+    "makerId": "maker-001",
+    "releaseDate": "2022-10-26T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "6100万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 723,
+    "size": {
+      "width": 131,
+      "height": 97,
+      "depth": 82
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-010",
+    "name": "α1",
+    "makerId": "maker-001",
+    "releaseDate": "2021-01-26T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "5010万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5.5,
+    "weight": 737,
+    "size": {
+      "width": 129,
+      "height": 97,
+      "depth": 81
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-011",
+    "name": "α7 III",
+    "makerId": "maker-001",
+    "releaseDate": "2018-03-23T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 650,
+    "size": {
+      "width": 127,
+      "height": 96,
+      "depth": 74
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-012",
+    "name": "α6700",
+    "makerId": "maker-001",
+    "releaseDate": "2023-07-12T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Sony E",
+    "resolution": "2600万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 493,
+    "size": {
+      "width": 122,
+      "height": 69,
+      "depth": 76
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-013",
+    "name": "α6400",
+    "makerId": "maker-001",
+    "releaseDate": "2019-01-15T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Sony E",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 403,
+    "size": {
+      "width": 120,
+      "height": 67,
+      "depth": 60
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-014",
+    "name": "ZV-E1",
+    "makerId": "maker-001",
+    "releaseDate": "2023-04-11T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "1210万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 483,
+    "size": {
+      "width": 121,
+      "height": 72,
+      "depth": 54
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-015",
+    "name": "EOS R5",
+    "makerId": "maker-002",
+    "releaseDate": "2020-07-09T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Canon RF",
+    "resolution": "4500万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 738,
+    "size": {
+      "width": 138,
+      "height": 98,
+      "depth": 88
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-016",
+    "name": "EOS R3",
+    "makerId": "maker-002",
+    "releaseDate": "2021-11-27T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Canon RF",
+    "resolution": "2410万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 1015,
+    "size": {
+      "width": 150,
+      "height": 143,
+      "depth": 87
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-017",
+    "name": "EOS R8",
+    "makerId": "maker-002",
+    "releaseDate": "2023-02-08T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Canon RF",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 461,
+    "size": {
+      "width": 133,
+      "height": 86,
+      "depth": 70
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-018",
+    "name": "EOS R7",
+    "makerId": "maker-002",
+    "releaseDate": "2022-06-23T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Canon RF",
+    "resolution": "3250万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7,
+    "weight": 612,
+    "size": {
+      "width": 132,
+      "height": 91,
+      "depth": 92
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-019",
+    "name": "EOS R10",
+    "makerId": "maker-002",
+    "releaseDate": "2022-05-24T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Canon RF",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 429,
+    "size": {
+      "width": 123,
+      "height": 88,
+      "depth": 83
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-020",
+    "name": "EOS R50",
+    "makerId": "maker-002",
+    "releaseDate": "2023-02-08T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Canon RF",
+    "resolution": "2410万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 375,
+    "size": {
+      "width": 116,
+      "height": 86,
+      "depth": 69
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-021",
+    "name": "EOS R6",
+    "makerId": "maker-002",
+    "releaseDate": "2020-07-09T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Canon RF",
+    "resolution": "2010万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 680,
+    "size": {
+      "width": 138,
+      "height": 98,
+      "depth": 88
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-022",
+    "name": "Z 8",
+    "makerId": "maker-003",
+    "releaseDate": "2023-05-10T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Nikon Z",
+    "resolution": "4571万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 910,
+    "size": {
+      "width": 144,
+      "height": 118,
+      "depth": 83
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-023",
+    "name": "Z 7 II",
+    "makerId": "maker-003",
+    "releaseDate": "2020-10-14T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Nikon Z",
+    "resolution": "4575万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 675,
+    "size": {
+      "width": 134,
+      "height": 101,
+      "depth": 70
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-024",
+    "name": "Z 6 III",
+    "makerId": "maker-003",
+    "releaseDate": "2024-06-17T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Nikon Z",
+    "resolution": "2450万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 760,
+    "size": {
+      "width": 134,
+      "height": 102,
+      "depth": 75
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-025",
+    "name": "Z 6 II",
+    "makerId": "maker-003",
+    "releaseDate": "2020-10-14T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Nikon Z",
+    "resolution": "2450万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 675,
+    "size": {
+      "width": 134,
+      "height": 101,
+      "depth": 70
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-026",
+    "name": "Z 5",
+    "makerId": "maker-003",
+    "releaseDate": "2020-07-08T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Nikon Z",
+    "resolution": "2432万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 675,
+    "size": {
+      "width": 134,
+      "height": 101,
+      "depth": 70
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-027",
+    "name": "Z fc",
+    "makerId": "maker-003",
+    "releaseDate": "2021-06-28T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Nikon Z",
+    "resolution": "2088万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 445,
+    "size": {
+      "width": 135,
+      "height": 94,
+      "depth": 44
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-028",
+    "name": "Z 50",
+    "makerId": "maker-003",
+    "releaseDate": "2019-10-10T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Nikon Z",
+    "resolution": "2088万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 450,
+    "size": {
+      "width": 127,
+      "height": 94,
+      "depth": 60
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-029",
+    "name": "Z 30",
+    "makerId": "maker-003",
+    "releaseDate": "2022-06-29T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Nikon Z",
+    "resolution": "2088万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 405,
+    "size": {
+      "width": 128,
+      "height": 74,
+      "depth": 60
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-030",
+    "name": "X-H2S",
+    "makerId": "maker-004",
+    "releaseDate": "2022-07-07T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2616万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7,
+    "weight": 660,
+    "size": {
+      "width": 136,
+      "height": 93,
+      "depth": 95
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-031",
+    "name": "X-H2",
+    "makerId": "maker-004",
+    "releaseDate": "2022-09-15T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "4020万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7,
+    "weight": 660,
+    "size": {
+      "width": 136,
+      "height": 93,
+      "depth": 95
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-032",
+    "name": "X-T4",
+    "makerId": "maker-004",
+    "releaseDate": "2020-02-26T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2610万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6.5,
+    "weight": 607,
+    "size": {
+      "width": 135,
+      "height": 93,
+      "depth": 84
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-033",
+    "name": "X-T3",
+    "makerId": "maker-004",
+    "releaseDate": "2018-09-20T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2610万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 539,
+    "size": {
+      "width": 133,
+      "height": 93,
+      "depth": 59
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-034",
+    "name": "X-S20",
+    "makerId": "maker-004",
+    "releaseDate": "2023-05-24T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2616万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7,
+    "weight": 491,
+    "size": {
+      "width": 127,
+      "height": 85,
+      "depth": 66
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-035",
+    "name": "X-S10",
+    "makerId": "maker-004",
+    "releaseDate": "2020-10-15T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2610万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 465,
+    "size": {
+      "width": 126,
+      "height": 85,
+      "depth": 65
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-036",
+    "name": "X-E4",
+    "makerId": "maker-004",
+    "releaseDate": "2021-01-27T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2610万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 364,
+    "size": {
+      "width": 121,
+      "height": 73,
+      "depth": 33
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-037",
+    "name": "X-Pro3",
+    "makerId": "maker-004",
+    "releaseDate": "2019-10-23T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2610万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 497,
+    "size": {
+      "width": 141,
+      "height": 83,
+      "depth": 47
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-038",
+    "name": "X100V",
+    "makerId": "maker-004",
+    "releaseDate": "2020-02-15T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": null,
+    "resolution": "2610万画素",
+    "isCompact": true,
+    "hasStabilization": false,
+    "weight": 478,
+    "size": {
+      "width": 128,
+      "height": 75,
+      "depth": 53
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-039",
+    "name": "OM-1 Mark II",
+    "makerId": "maker-005",
+    "releaseDate": "2024-02-13T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2037万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8.5,
+    "weight": 599,
+    "size": {
+      "width": 135,
+      "height": 92,
+      "depth": 73
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-040",
+    "name": "OM-5",
+    "makerId": "maker-005",
+    "releaseDate": "2022-10-27T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2037万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7.5,
+    "weight": 414,
+    "size": {
+      "width": 126,
+      "height": 85,
+      "depth": 50
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-041",
+    "name": "E-M1 Mark III",
+    "makerId": "maker-005",
+    "releaseDate": "2020-02-12T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2037万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7.5,
+    "weight": 580,
+    "size": {
+      "width": 135,
+      "height": 92,
+      "depth": 69
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-042",
+    "name": "E-M5 Mark III",
+    "makerId": "maker-005",
+    "releaseDate": "2019-10-17T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2037万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6.5,
+    "weight": 414,
+    "size": {
+      "width": 126,
+      "height": 85,
+      "depth": 50
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-043",
+    "name": "E-M10 Mark IV",
+    "makerId": "maker-005",
+    "releaseDate": "2020-08-25T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2037万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 4.5,
+    "weight": 383,
+    "size": {
+      "width": 122,
+      "height": 84,
+      "depth": 49
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-044",
+    "name": "PEN E-P7",
+    "makerId": "maker-005",
+    "releaseDate": "2021-06-18T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2037万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 337,
+    "size": {
+      "width": 118,
+      "height": 69,
+      "depth": 38
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-045",
+    "name": "PENTAX K-3 Mark III",
+    "makerId": "maker-006",
+    "releaseDate": "2021-04-23T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Pentax K",
+    "resolution": "2573万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5.5,
+    "weight": 820,
+    "size": {
+      "width": 135,
+      "height": 104,
+      "depth": 74
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-046",
+    "name": "PENTAX KF",
+    "makerId": "maker-006",
+    "releaseDate": "2022-11-25T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Pentax K",
+    "resolution": "2424万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 725,
+    "size": {
+      "width": 126,
+      "height": 93,
+      "depth": 74
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-047",
+    "name": "GR IIIx",
+    "makerId": "maker-006",
+    "releaseDate": "2021-09-17T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": null,
+    "resolution": "2424万画素",
+    "isCompact": true,
+    "hasStabilization": true,
+    "stabilizationStops": 4,
+    "weight": 262,
+    "size": {
+      "width": 109,
+      "height": 62,
+      "depth": 35
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-048",
+    "name": "GR III HDF",
+    "makerId": "maker-006",
+    "releaseDate": "2023-11-24T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": null,
+    "resolution": "2424万画素",
+    "isCompact": true,
+    "hasStabilization": true,
+    "stabilizationStops": 4,
+    "weight": 262,
+    "size": {
+      "width": 109,
+      "height": 62,
+      "depth": 33
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-049",
+    "name": "LUMIX S5 II",
+    "makerId": "maker-008",
+    "releaseDate": "2023-01-04T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6.5,
+    "weight": 740,
+    "size": {
+      "width": 134,
+      "height": 102,
+      "depth": 90
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-050",
+    "name": "LUMIX S5 IIX",
+    "makerId": "maker-008",
+    "releaseDate": "2023-01-04T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6.5,
+    "weight": 740,
+    "size": {
+      "width": 134,
+      "height": 102,
+      "depth": 90
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-051",
+    "name": "LUMIX S1R",
+    "makerId": "maker-008",
+    "releaseDate": "2019-03-21T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "4730万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 1016,
+    "size": {
+      "width": 149,
+      "height": 110,
+      "depth": 97
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-052",
+    "name": "LUMIX S1H",
+    "makerId": "maker-008",
+    "releaseDate": "2019-09-25T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 1164,
+    "size": {
+      "width": 151,
+      "height": 114,
+      "depth": 110
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-053",
+    "name": "LUMIX G9 II",
+    "makerId": "maker-008",
+    "releaseDate": "2023-11-02T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2521万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 658,
+    "size": {
+      "width": 136,
+      "height": 98,
+      "depth": 88
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-054",
+    "name": "LUMIX G9 PRO",
+    "makerId": "maker-008",
+    "releaseDate": "2017-11-08T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2033万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6.5,
+    "weight": 658,
+    "size": {
+      "width": 137,
+      "height": 97,
+      "depth": 92
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-055",
+    "name": "LUMIX GH7",
+    "makerId": "maker-008",
+    "releaseDate": "2024-06-13T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2521万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7.5,
+    "weight": 722,
+    "size": {
+      "width": 139,
+      "height": 100,
+      "depth": 100
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-056",
+    "name": "LUMIX GH6",
+    "makerId": "maker-008",
+    "releaseDate": "2022-03-22T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2521万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7.5,
+    "weight": 823,
+    "size": {
+      "width": 138,
+      "height": 100,
+      "depth": 100
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-057",
+    "name": "LUMIX GH5 II",
+    "makerId": "maker-008",
+    "releaseDate": "2021-05-25T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2033万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6.5,
+    "weight": 727,
+    "size": {
+      "width": 139,
+      "height": 98,
+      "depth": 87
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-058",
+    "name": "SIGMA fp L",
+    "makerId": "maker-009",
+    "releaseDate": "2021-03-18T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "6100万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 427,
+    "size": {
+      "width": 113,
+      "height": 70,
+      "depth": 45
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-059",
+    "name": "SIGMA fp",
+    "makerId": "maker-009",
+    "releaseDate": "2019-10-25T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "2460万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 422,
+    "size": {
+      "width": 113,
+      "height": 70,
+      "depth": 45
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-060",
+    "name": "Leica SL3",
+    "makerId": "maker-010",
+    "releaseDate": "2024-03-07T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "6000万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 769,
+    "size": {
+      "width": 146,
+      "height": 107,
+      "depth": 83
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-061",
+    "name": "Leica SL2",
+    "makerId": "maker-010",
+    "releaseDate": "2019-11-06T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "4730万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5.5,
+    "weight": 835,
+    "size": {
+      "width": 146,
+      "height": 107,
+      "depth": 82
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-062",
+    "name": "Leica Q3",
+    "makerId": "maker-010",
+    "releaseDate": "2023-05-17T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": null,
+    "resolution": "6030万画素",
+    "isCompact": true,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 743,
+    "size": {
+      "width": 130,
+      "height": 80,
+      "depth": 92
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-063",
+    "name": "Leica Q2",
+    "makerId": "maker-010",
+    "releaseDate": "2019-03-07T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": null,
+    "resolution": "4730万画素",
+    "isCompact": true,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 718,
+    "size": {
+      "width": 130,
+      "height": 80,
+      "depth": 92
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-064",
+    "name": "Leica M11",
+    "makerId": "maker-010",
+    "releaseDate": "2022-01-13T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica M",
+    "resolution": "6030万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 640,
+    "size": {
+      "width": 139,
+      "height": 80,
+      "depth": 39
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-065",
+    "name": "Leica M10-R",
+    "makerId": "maker-010",
+    "releaseDate": "2020-07-16T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica M",
+    "resolution": "4000万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 660,
+    "size": {
+      "width": 139,
+      "height": 80,
+      "depth": 39
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-066",
+    "name": "Hasselblad X2D 100C",
+    "makerId": "maker-011",
+    "releaseDate": "2022-09-07T00:00:00.000Z",
+    "sensorSize": "中判",
+    "lensMount": "Hasselblad X",
+    "resolution": "10200万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 7,
+    "weight": 895,
+    "size": {
+      "width": 148,
+      "height": 106,
+      "depth": 75
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-067",
+    "name": "Hasselblad X1D II 50C",
+    "makerId": "maker-011",
+    "releaseDate": "2019-07-10T00:00:00.000Z",
+    "sensorSize": "中判",
+    "lensMount": "Hasselblad X",
+    "resolution": "5000万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 766,
+    "size": {
+      "width": 148,
+      "height": 97,
+      "depth": 71
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-068",
+    "name": "FUJIFILM GFX100 II",
+    "makerId": "maker-004",
+    "releaseDate": "2023-09-12T00:00:00.000Z",
+    "sensorSize": "中判",
+    "lensMount": "Fujifilm G",
+    "resolution": "10200万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 883,
+    "size": {
+      "width": 153,
+      "height": 118,
+      "depth": 94
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-069",
+    "name": "FUJIFILM GFX100S",
+    "makerId": "maker-004",
+    "releaseDate": "2021-01-27T00:00:00.000Z",
+    "sensorSize": "中判",
+    "lensMount": "Fujifilm G",
+    "resolution": "10200万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 900,
+    "size": {
+      "width": 150,
+      "height": 104,
+      "depth": 87
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-070",
+    "name": "FUJIFILM GFX50S II",
+    "makerId": "maker-004",
+    "releaseDate": "2021-09-02T00:00:00.000Z",
+    "sensorSize": "中判",
+    "lensMount": "Fujifilm G",
+    "resolution": "5140万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6.5,
+    "weight": 900,
+    "size": {
+      "width": 150,
+      "height": 104,
+      "depth": 87
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-071",
+    "name": "α9 III",
+    "makerId": "maker-001",
+    "releaseDate": "2023-11-08T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "2460万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 702,
+    "size": {
+      "width": 137,
+      "height": 97,
+      "depth": 82
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-072",
+    "name": "α9 II",
+    "makerId": "maker-001",
+    "releaseDate": "2019-10-03T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5.5,
+    "weight": 678,
+    "size": {
+      "width": 129,
+      "height": 96,
+      "depth": 76
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-073",
+    "name": "α7S III",
+    "makerId": "maker-001",
+    "releaseDate": "2020-07-28T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "1210万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5.5,
+    "weight": 699,
+    "size": {
+      "width": 129,
+      "height": 97,
+      "depth": 81
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-074",
+    "name": "α7R IV",
+    "makerId": "maker-001",
+    "releaseDate": "2019-07-16T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "6100万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5.5,
+    "weight": 665,
+    "size": {
+      "width": 129,
+      "height": 96,
+      "depth": 78
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-075",
+    "name": "Z f",
+    "makerId": "maker-003",
+    "releaseDate": "2023-09-20T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Nikon Z",
+    "resolution": "2450万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8,
+    "weight": 710,
+    "size": {
+      "width": 144,
+      "height": 103,
+      "depth": 49
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-076",
+    "name": "EOS R5 Mark II",
+    "makerId": "maker-002",
+    "releaseDate": "2024-07-24T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Canon RF",
+    "resolution": "4500万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 8.5,
+    "weight": 790,
+    "size": {
+      "width": 138,
+      "height": 98,
+      "depth": 88
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-077",
+    "name": "X-T30 II",
+    "makerId": "maker-004",
+    "releaseDate": "2021-09-02T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2610万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 383,
+    "size": {
+      "width": 118,
+      "height": 83,
+      "depth": 47
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-078",
+    "name": "X-T30",
+    "makerId": "maker-004",
+    "releaseDate": "2019-02-14T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2610万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 383,
+    "size": {
+      "width": 118,
+      "height": 83,
+      "depth": 47
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-079",
+    "name": "X-T20",
+    "makerId": "maker-004",
+    "releaseDate": "2017-01-19T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2430万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 383,
+    "size": {
+      "width": 118,
+      "height": 83,
+      "depth": 41
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-080",
+    "name": "X-M5",
+    "makerId": "maker-004",
+    "releaseDate": "2024-10-15T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2616万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 355,
+    "size": {
+      "width": 112,
+      "height": 67,
+      "depth": 38
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-081",
+    "name": "Z 7",
+    "makerId": "maker-003",
+    "releaseDate": "2018-08-23T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Nikon Z",
+    "resolution": "4575万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 675,
+    "size": {
+      "width": 134,
+      "height": 101,
+      "depth": 68
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-082",
+    "name": "Z 6",
+    "makerId": "maker-003",
+    "releaseDate": "2018-08-23T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Nikon Z",
+    "resolution": "2450万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 675,
+    "size": {
+      "width": 134,
+      "height": 101,
+      "depth": 68
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-083",
+    "name": "EOS RP",
+    "makerId": "maker-002",
+    "releaseDate": "2019-02-14T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Canon RF",
+    "resolution": "2620万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 485,
+    "size": {
+      "width": 133,
+      "height": 85,
+      "depth": 70
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-084",
+    "name": "EOS R",
+    "makerId": "maker-002",
+    "releaseDate": "2018-09-05T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Canon RF",
+    "resolution": "3030万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 660,
+    "size": {
+      "width": 136,
+      "height": 98,
+      "depth": 84
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-085",
+    "name": "LUMIX DC-S9",
+    "makerId": "maker-008",
+    "releaseDate": "2024-06-04T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6.5,
+    "weight": 486,
+    "size": {
+      "width": 126,
+      "height": 74,
+      "depth": 47
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-086",
+    "name": "LUMIX S5",
+    "makerId": "maker-008",
+    "releaseDate": "2020-09-02T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6.5,
+    "weight": 714,
+    "size": {
+      "width": 133,
+      "height": 97,
+      "depth": 82
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-087",
+    "name": "LUMIX S1",
+    "makerId": "maker-008",
+    "releaseDate": "2019-03-21T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Leica L",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 6,
+    "weight": 1017,
+    "size": {
+      "width": 149,
+      "height": 110,
+      "depth": 97
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-088",
+    "name": "LUMIX DC-G100",
+    "makerId": "maker-008",
+    "releaseDate": "2020-06-24T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2030万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 412,
+    "size": {
+      "width": 116,
+      "height": 83,
+      "depth": 54
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-089",
+    "name": "LUMIX GX7 Mark III",
+    "makerId": "maker-008",
+    "releaseDate": "2018-03-15T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "2030万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 450,
+    "size": {
+      "width": 123,
+      "height": 73,
+      "depth": 55
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-090",
+    "name": "PENTAX K-1 Mark II",
+    "makerId": "maker-006",
+    "releaseDate": "2018-02-28T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Pentax K",
+    "resolution": "3640万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 1010,
+    "size": {
+      "width": 137,
+      "height": 110,
+      "depth": 86
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-091",
+    "name": "α7C",
+    "makerId": "maker-001",
+    "releaseDate": "2020-09-15T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 509,
+    "size": {
+      "width": 124,
+      "height": 71,
+      "depth": 60
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-092",
+    "name": "α7R III",
+    "makerId": "maker-001",
+    "releaseDate": "2017-10-25T00:00:00.000Z",
+    "sensorSize": "フルサイズ",
+    "lensMount": "Sony E",
+    "resolution": "4240万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5.5,
+    "weight": 657,
+    "size": {
+      "width": 127,
+      "height": 96,
+      "depth": 74
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-093",
+    "name": "α6600",
+    "makerId": "maker-001",
+    "releaseDate": "2019-08-29T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Sony E",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 5,
+    "weight": 503,
+    "size": {
+      "width": 120,
+      "height": 67,
+      "depth": 69
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-094",
+    "name": "α6100",
+    "makerId": "maker-001",
+    "releaseDate": "2019-08-08T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Sony E",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 396,
+    "size": {
+      "width": 120,
+      "height": 67,
+      "depth": 59
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-095",
+    "name": "ZV-E10",
+    "makerId": "maker-001",
+    "releaseDate": "2021-07-27T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Sony E",
+    "resolution": "2420万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 343,
+    "size": {
+      "width": 115,
+      "height": 64,
+      "depth": 45
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-096",
+    "name": "ZV-E10 II",
+    "makerId": "maker-001",
+    "releaseDate": "2024-07-11T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Sony E",
+    "resolution": "2600万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 377,
+    "size": {
+      "width": 115,
+      "height": 64,
+      "depth": 50
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-097",
+    "name": "X-A7",
+    "makerId": "maker-004",
+    "releaseDate": "2019-09-12T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Fujifilm X",
+    "resolution": "2424万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 320,
+    "size": {
+      "width": 119,
+      "height": 68,
+      "depth": 41
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-098",
+    "name": "E-PL10",
+    "makerId": "maker-005",
+    "releaseDate": "2019-10-04T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "1605万画素",
+    "isCompact": false,
+    "hasStabilization": true,
+    "stabilizationStops": 3.5,
+    "weight": 332,
+    "size": {
+      "width": 117,
+      "height": 68,
+      "depth": 39
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-099",
+    "name": "LUMIX GF10",
+    "makerId": "maker-008",
+    "releaseDate": "2018-02-22T00:00:00.000Z",
+    "sensorSize": "マイクロフォーサーズ",
+    "lensMount": "Micro Four Thirds",
+    "resolution": "1600万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 270,
+    "size": {
+      "width": 107,
+      "height": 65,
+      "depth": 33
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
+  },
+  {
+    "id": "cam-100",
+    "name": "Leica CL",
+    "makerId": "maker-010",
+    "releaseDate": "2017-11-21T00:00:00.000Z",
+    "sensorSize": "APS-C",
+    "lensMount": "Leica L",
+    "resolution": "2400万画素",
+    "isCompact": false,
+    "hasStabilization": false,
+    "weight": 403,
+    "size": {
+      "width": 131,
+      "height": 78,
+      "depth": 46
+    },
+    "createdAt": "2026-01-28T00:00:00.000Z",
+    "updatedAt": "2026-01-28T00:00:00.000Z"
   }
 ]

@@ -4,7 +4,8 @@
  */
 
 import type { CameraMaster, CreateCameraMasterInput, UpdateCameraMasterInput } from '@/domain/gear/camera-master.entity'
-import type { CameraMasterRepository } from '@/repositories/camera-master.repository'
+import type { CameraMasterRepository, CameraSearchFilters, CameraDistinctValues } from '@/repositories/camera-master.repository'
+import { matchTokens } from '@/lib/normalize-search'
 import cameraMastersData from '@/data/camera-masters.json'
 
 type CameraMasterJSON = Omit<CameraMaster, 'releaseDate' | 'createdAt' | 'updatedAt'> & {
@@ -43,6 +44,39 @@ export class CameraMasterFileRepository implements CameraMasterRepository {
   async search(keyword: string): Promise<CameraMaster[]> {
     const lowerKeyword = keyword.toLowerCase()
     return this.cameras.filter(c => c.name.toLowerCase().includes(lowerKeyword))
+  }
+
+  async searchWithFilters(params: CameraSearchFilters): Promise<CameraMaster[]> {
+    let results = [...this.cameras]
+
+    if (params.makerId) {
+      results = results.filter(c => c.makerId === params.makerId)
+    }
+    if (params.lensMount) {
+      results = results.filter(c => c.lensMount === params.lensMount)
+    }
+    if (params.sensorSize) {
+      results = results.filter(c => c.sensorSize === params.sensorSize)
+    }
+    if (params.isCompact !== undefined) {
+      results = results.filter(c => c.isCompact === params.isCompact)
+    }
+    if (params.query) {
+      results = results.filter(c => matchTokens(c.name, params.query!))
+    }
+
+    return results
+  }
+
+  async getDistinctValues(): Promise<CameraDistinctValues> {
+    const lensMounts = [...new Set(
+      this.cameras.map(c => c.lensMount).filter((v): v is string => v != null),
+    )].sort()
+    const sensorSizes = [...new Set(
+      this.cameras.map(c => c.sensorSize).filter((v): v is string => v != null),
+    )].sort()
+
+    return { lensMounts, sensorSizes }
   }
 
   async create(input: CreateCameraMasterInput): Promise<CameraMaster> {
