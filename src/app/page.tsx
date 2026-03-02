@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui_shadcn/badge'
 import { getUserOwnedGears, getUserWantedGears, getUserPreviouslyOwnedGears } from '@/actions/user-gear.actions'

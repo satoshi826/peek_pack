@@ -55,7 +55,8 @@ export function AddGearDialog({ gearType, status, userId }: AddGearDialogProps) 
         focusType: (focusType || undefined) as FocusType | undefined,
       })
       setResults(data)
-    } finally {
+    }
+    finally {
       setIsSearching(false)
     }
   }, [gearType, query, makerId, lensMount, sensorSize, isCompact, focalLength, maxAperture, focusType])
@@ -267,7 +268,7 @@ export function AddGearDialog({ gearType, status, userId }: AddGearDialogProps) 
               <Command.Group
                 key={makerName}
                 heading={makerName}
-                className="[&_[cmdk-group-heading]]:px-3 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground"
+                className="**:[[cmdk-group-heading]]:px-3 **:[[cmdk-group-heading]]:py-1.5 **:[[cmdk-group-heading]]:text-xs **:[[cmdk-group-heading]]:font-medium **:[[cmdk-group-heading]]:text-muted-foreground"
               >
                 {items.map(item => (
                   <Command.Item

@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import Link from 'next/link'
 import { Button } from '@/components/ui_shadcn/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui_shadcn/card'

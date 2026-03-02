@@ -7,10 +7,10 @@
 
 'use server'
 
-import { UserFileRepository } from '@/infra/storage/file/user.repository'
+import { UserDrizzleRepository } from '@/infra/storage/drizzle/user.repository'
 import type { User } from '@/domain/user/user.entity'
 
-const userRepo = new UserFileRepository()
+const userRepo = new UserDrizzleRepository()
 
 /**
  * 現在ログイン中のユーザーを取得

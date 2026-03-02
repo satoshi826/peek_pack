@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Peek Pack
 
-## Getting Started
+## セットアップ
 
-First, run the development server:
+```bash
+npm install
+```
+
+### 環境変数
+
+| ファイル | 用途 |
+|---|---|
+| `.env.local` | ローカル開発用 |
+| `.env.prod` | 本番用 |
+
+それぞれに `DATABASE_URL` を設定する。
+
+## 開発
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## DBマイグレーション
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. スキーマを変更する
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`src/db/schema/` 配下の `.ts` ファイルを編集する。
 
-## Learn More
+### 2. マイグレーションSQLを生成する
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npx drizzle-kit generate
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`supabase/migrations/` に差分SQLが出力される。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. マイグレーションを適用する
 
-## Deploy on Vercel
+```bash
+# ローカル (.env.local)
+npx drizzle-kit migrate
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 本番 (.env.prod)
+npm run db:migrate:prod
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### シードデータの投入
+
+```bash
+npm run db:seed
+```
+
+## デプロイ
+
+`main` ブランチへの push で Vercel に自動デプロイされる。
+
+DBマイグレーションは自動適用されないため、スキーマ変更がある場合は手動で `npm run db:migrate:prod` を実行する。

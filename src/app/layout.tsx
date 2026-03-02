@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import type { Metadata } from 'next'
 import { Zen_Kaku_Gothic_New } from 'next/font/google'
 import { Toolbar } from '@/components/layout/Toolbar'

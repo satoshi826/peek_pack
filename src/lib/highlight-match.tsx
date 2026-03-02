@@ -20,7 +20,7 @@ export function HighlightMatch({ text, query }: HighlightMatchProps) {
 
   // 正規化されたテキスト上でマッチ位置を見つけ、元テキスト上にマッピング
   const normalizedText = normalizeForSearch(text)
-  const ranges: { start: number; end: number }[] = []
+  const ranges: { start: number, end: number }[] = []
 
   for (const token of tokens) {
     const normalizedToken = normalizeForSearch(token)
@@ -39,12 +39,13 @@ export function HighlightMatch({ text, query }: HighlightMatchProps) {
 
   // 範囲をマージ
   ranges.sort((a, b) => a.start - b.start)
-  const merged: { start: number; end: number }[] = [ranges[0]]
+  const merged: { start: number, end: number }[] = [ranges[0]]
   for (let i = 1; i < ranges.length; i++) {
     const last = merged[merged.length - 1]
     if (ranges[i].start <= last.end) {
       last.end = Math.max(last.end, ranges[i].end)
-    } else {
+    }
+    else {
       merged.push(ranges[i])
     }
   }

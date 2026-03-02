@@ -5,10 +5,10 @@
 
 'use server'
 
-import { UserGearFileRepository } from '@/infra/storage/file/user-gear.repository'
-import { CameraMasterFileRepository } from '@/infra/storage/file/camera-master.repository'
-import { LensMasterFileRepository } from '@/infra/storage/file/lens-master.repository'
-import { MakerFileRepository } from '@/infra/storage/file/maker.repository'
+import { UserGearDrizzleRepository } from '@/infra/storage/drizzle/user-gear.repository'
+import { CameraMasterDrizzleRepository } from '@/infra/storage/drizzle/camera-master.repository'
+import { LensMasterDrizzleRepository } from '@/infra/storage/drizzle/lens-master.repository'
+import { MakerDrizzleRepository } from '@/infra/storage/drizzle/maker.repository'
 import { matchTokens } from '@/lib/normalize-search'
 import { revalidatePath } from 'next/cache'
 import type { CreateUserGearInput, GearType } from '@/domain/gear/user-gear.entity'
@@ -16,10 +16,10 @@ import type { UserGearWithDetails } from '@/repositories/user-gear.repository'
 import type { FocusType } from '@/domain/gear/lens-master.entity'
 
 // リポジトリのインスタンス化
-const cameraMasterRepo = new CameraMasterFileRepository()
-const lensMasterRepo = new LensMasterFileRepository()
-const makerRepo = new MakerFileRepository()
-const userGearRepo = new UserGearFileRepository(
+const cameraMasterRepo = new CameraMasterDrizzleRepository()
+const lensMasterRepo = new LensMasterDrizzleRepository()
+const makerRepo = new MakerDrizzleRepository()
+const userGearRepo = new UserGearDrizzleRepository(
   cameraMasterRepo,
   lensMasterRepo,
   makerRepo,
