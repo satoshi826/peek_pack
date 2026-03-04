@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic'
 
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui_shadcn/badge'
-import { getUserOwnedGears, getUserWantedGears, getUserPreviouslyOwnedGears } from '@/actions/user-gear.actions'
+import { getUserGearsByStatus } from '@/actions/user-gear.actions'
 import { getCurrentUser } from '@/lib/auth'
 import { Typography } from '@/components/ui_shadcn/typography'
 import { Flex, Stack, Container } from '@/components/ui_shadcn/layout'
@@ -24,9 +24,9 @@ export default async function Home() {
   }
 
   const [ownedGears, wantedGears, previouslyOwnedGears] = await Promise.all([
-    getUserOwnedGears(currentUser.id),
-    getUserWantedGears(currentUser.id),
-    getUserPreviouslyOwnedGears(currentUser.id),
+    getUserGearsByStatus(currentUser.id, 'owned'),
+    getUserGearsByStatus(currentUser.id, 'wanted'),
+    getUserGearsByStatus(currentUser.id, 'previously-owned'),
   ])
 
   return (

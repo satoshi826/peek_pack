@@ -13,7 +13,7 @@ export const cameraMasters = pgTable('camera_masters', {
   hasStabilization: boolean('has_stabilization').notNull(),
   stabilizationStops: real('stabilization_stops'),
   weight: integer('weight'),
-  size: jsonb('size').$type<{ width: number; height: number; depth: number }>(),
+  size: jsonb('size').$type<{ width: number, height: number, depth: number }>(),
   createdAt: timestamp('created_at', { mode: 'date' }).notNull().defaultNow(),
   updatedAt: timestamp('updated_at', { mode: 'date' }).notNull().defaultNow().$onUpdate(() => new Date()),
 })

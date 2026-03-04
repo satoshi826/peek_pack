@@ -12,7 +12,7 @@ export const lensMasters = pgTable('lens_masters', {
   maxAperture: text('max_aperture'),
   focusType: focusTypeEnum('focus_type').notNull(),
   weight: integer('weight'),
-  size: jsonb('size').$type<{ diameter: number; length: number }>(),
+  size: jsonb('size').$type<{ diameter: number, length: number }>(),
   filterDiameter: real('filter_diameter'),
   createdAt: timestamp('created_at', { mode: 'date' }).notNull().defaultNow(),
   updatedAt: timestamp('updated_at', { mode: 'date' }).notNull().defaultNow().$onUpdate(() => new Date()),

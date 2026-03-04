@@ -8,8 +8,8 @@ import { Card } from '@/components/ui/card'
 import { Typography } from '@/components/ui_shadcn/typography'
 import { Flex, Grid } from '@/components/ui_shadcn/layout'
 import { AddGearDialog } from './add-gear-dialog'
-import type { UserGearWithDetails } from '@/repositories/user-gear.repository'
-import type { GearStatus } from '@/domain/gear/user-gear.entity'
+import type { UserGearWithDetails } from '@/types/user-gear'
+import type { GearStatus } from '@/db/validation'
 
 interface GearTabsProps {
   ownedGears: UserGearWithDetails[]

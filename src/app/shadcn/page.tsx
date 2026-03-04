@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui_shadcn/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui_shadcn/card'
 import { Badge } from '@/components/ui_shadcn/badge'
-import { getUserGears, getUserOwnedGears, getUserWantedGears } from '@/actions/user-gear.actions'
+import { getUserGears, getUserGearsByStatus } from '@/actions/user-gear.actions'
 import { getCurrentUser } from '@/lib/auth'
 import { Camera, Aperture } from 'lucide-react'
 import { Typography } from '@/components/ui_shadcn/typography'
@@ -25,8 +25,8 @@ export default async function Home() {
   }
 
   const allGears = await getUserGears(currentUser.id)
-  const ownedGears = await getUserOwnedGears(currentUser.id)
-  const wantedGears = await getUserWantedGears(currentUser.id)
+  const ownedGears = await getUserGearsByStatus(currentUser.id, 'owned')
+  const wantedGears = await getUserGearsByStatus(currentUser.id, 'wanted')
 
   const cameras = ownedGears.filter(g => g.gearType === 'camera')
   const lenses = ownedGears.filter(g => g.gearType === 'lens')

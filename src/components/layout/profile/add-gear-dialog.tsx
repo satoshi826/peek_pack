@@ -6,10 +6,9 @@ import { Plus, Loader2 } from 'lucide-react'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog'
 import { Button } from '@/components/ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui_shadcn/select'
-import { createUserGear, searchMasters, getMasterFilterOptions } from '@/actions/user-gear.actions'
-import type { MasterSearchResult, FilterOptions } from '@/actions/user-gear.actions'
-import type { GearStatus, GearType } from '@/domain/gear/user-gear.entity'
-import type { FocusType } from '@/domain/gear/lens-master.entity'
+import { createUserGearAction, searchMasters, getMasterFilterOptions } from '@/actions/user-gear.actions'
+import type { MasterSearchResult, FilterOptions } from '@/types/master'
+import type { GearStatus, GearType, FocusType } from '@/db/validation'
 import { HighlightMatch } from '@/lib/highlight-match'
 
 interface AddGearDialogProps {
@@ -85,7 +84,7 @@ export function AddGearDialog({ gearType, status, userId }: AddGearDialogProps) 
 
   function handleSelect(id: string) {
     startTransition(async () => {
-      await createUserGear({
+      await createUserGearAction({
         userId,
         gearType,
         masterId: id,
