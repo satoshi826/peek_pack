@@ -10,6 +10,7 @@ import { searchCameraMastersWithFilters, getCameraDistinctValues } from '@/db/qu
 import { searchLensMastersWithFilters, getLensDistinctValues } from '@/db/queries/lens-master'
 import { findAllMakers } from '@/db/queries/maker'
 import { matchTokens } from '@/lib/normalize-search'
+import { getCurrentUserId } from '@/lib/auth-session'
 import { revalidatePath } from 'next/cache'
 import type { CreateUserGearInput, GearType, GearStatus, FocusType } from '@/db/validation'
 import type { UserGearWithDetails } from '@/types/user-gear'
@@ -28,6 +29,10 @@ export async function getUserGearById(id: string): Promise<UserGearWithDetails |
 }
 
 export async function createUserGearAction(input: CreateUserGearInput) {
+  const currentUserId = await getCurrentUserId()
+  if (!currentUserId) throw new Error('認証が必要です')
+  if (input.userId !== currentUserId) throw new Error('権限がありません')
+
   const gear = await createUserGear(input)
   revalidatePath('/')
   return gear

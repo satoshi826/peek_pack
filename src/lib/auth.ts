@@ -1,15 +1,28 @@
-'use server'
+import { betterAuth } from 'better-auth'
+import { drizzleAdapter } from 'better-auth/adapters/drizzle'
+import { db } from '@/db'
+import * as schema from '@/db/schema'
 
-import { findAllUsers } from '@/db/queries/user'
-import type { User } from '@/db/validation'
-
-export async function getCurrentUser(): Promise<User | null> {
-  // 仮実装: 最初のユーザーを返す
-  const users = await findAllUsers()
-  return users[0] || null
-}
-
-export async function getCurrentUserId(): Promise<string | null> {
-  const user = await getCurrentUser()
-  return user?.id || null
-}
+export const auth = betterAuth({
+  database: drizzleAdapter(db, {
+    provider: 'pg',
+    usePlural: true,
+    schema: {
+      users: schema.users,
+      sessions: schema.sessions,
+      accounts: schema.accounts,
+      verifications: schema.verifications,
+    },
+  }),
+  socialProviders: {
+    google: {
+      clientId: process.env.GOOGLE_CLIENT_ID!,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+    },
+  },
+  user: {
+    fields: {
+      image: 'profileImage',
+    },
+  },
+})

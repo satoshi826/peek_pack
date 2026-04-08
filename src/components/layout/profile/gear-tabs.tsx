@@ -16,15 +16,17 @@ interface GearTabsProps {
   wantedGears: UserGearWithDetails[]
   previouslyOwnedGears: UserGearWithDetails[]
   userId: string
+  editable?: boolean
 }
 
-function GearSection({ icon, label, gears, gearType, status, userId }: {
+function GearSection({ icon, label, gears, gearType, status, userId, editable }: {
   icon: React.ReactNode
   label: string
   gears: UserGearWithDetails[]
   gearType: 'camera' | 'lens'
   status: GearStatus
   userId: string
+  editable?: boolean
 }) {
   return (
     <Card variant="inset" className="p-6">
@@ -33,7 +35,7 @@ function GearSection({ icon, label, gears, gearType, status, userId }: {
           {icon}
           <Typography variant="h4" weight="medium">{label}</Typography>
         </Flex>
-        <AddGearDialog gearType={gearType} status={status} userId={userId} />
+        {editable && <AddGearDialog gearType={gearType} status={status} userId={userId} />}
       </Flex>
       {gears.length > 0
         ? (
@@ -62,18 +64,19 @@ function GearSection({ icon, label, gears, gearType, status, userId }: {
   )
 }
 
-function GearList({ gears, status, userId }: {
+function GearList({ gears, status, userId, editable }: {
   gears: UserGearWithDetails[]
   status: GearStatus
   userId: string
+  editable?: boolean
 }) {
   const cameras = gears.filter(g => g.gearType === 'camera')
   const lenses = gears.filter(g => g.gearType === 'lens')
 
   return (
     <div className="space-y-8">
-      <GearSection icon={<Camera className=" text-zinc-600" scale={5} />} label="カメラ" gears={cameras} gearType="camera" status={status} userId={userId} />
-      <GearSection icon={<Aperture className=" text-zinc-600" scale={5} />} label="レンズ" gears={lenses} gearType="lens" status={status} userId={userId} />
+      <GearSection icon={<Camera className=" text-zinc-600" scale={5} />} label="カメラ" gears={cameras} gearType="camera" status={status} userId={userId} editable={editable} />
+      <GearSection icon={<Aperture className=" text-zinc-600" scale={5} />} label="レンズ" gears={lenses} gearType="lens" status={status} userId={userId} editable={editable} />
     </div>
   )
 }
@@ -84,7 +87,7 @@ const tabStatusMap = {
   'previously-owned': 'previously-owned',
 } as const satisfies Record<string, GearStatus>
 
-export function GearTabs({ ownedGears, wantedGears, previouslyOwnedGears, userId }: GearTabsProps) {
+export function GearTabs({ ownedGears, wantedGears, previouslyOwnedGears, userId, editable }: GearTabsProps) {
   const [activeTab, setActiveTab] = useState<string>('owned')
   const status = tabStatusMap[activeTab as keyof typeof tabStatusMap] ?? 'owned'
 
@@ -105,13 +108,13 @@ export function GearTabs({ ownedGears, wantedGears, previouslyOwnedGears, userId
         </TabsTrigger>
       </TabsList>
       <TabsContent value="owned">
-        <GearList gears={ownedGears} status={status} userId={userId} />
+        <GearList gears={ownedGears} status={status} userId={userId} editable={editable} />
       </TabsContent>
       <TabsContent value="wanted">
-        <GearList gears={wantedGears} status={status} userId={userId} />
+        <GearList gears={wantedGears} status={status} userId={userId} editable={editable} />
       </TabsContent>
       <TabsContent value="previously-owned">
-        <GearList gears={previouslyOwnedGears} status={status} userId={userId} />
+        <GearList gears={previouslyOwnedGears} status={status} userId={userId} editable={editable} />
       </TabsContent>
     </Tabs>
   )

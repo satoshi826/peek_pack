@@ -48,7 +48,7 @@ interface CameraMasterJSON {
   hasStabilization: boolean
   stabilizationStops?: number | null
   weight?: number | null
-  size?: { width: number; height: number; depth: number } | null
+  size?: { width: number, height: number, depth: number } | null
   createdAt: string
   updatedAt: string
 }
@@ -63,7 +63,7 @@ interface LensMasterJSON {
   maxAperture?: string | null
   focusType: 'AF' | 'MF' | 'AF/MF'
   weight?: number | null
-  size?: { diameter: number; length: number } | null
+  size?: { diameter: number, length: number } | null
   filterDiameter?: number | null
   createdAt: string
   updatedAt: string
@@ -73,7 +73,7 @@ interface UserJSON {
   id: string
   name: string
   email: string
-  profileImage: string
+  profileImage?: string | null
   bio?: string | null
   createdAt: string
   updatedAt: string
@@ -162,7 +162,8 @@ async function seed() {
       id: u.id,
       name: u.name,
       email: u.email,
-      profileImage: u.profileImage,
+      profileImage: u.profileImage ?? null,
+      emailVerified: false,
       bio: u.bio ?? null,
       createdAt: new Date(u.createdAt),
       updatedAt: new Date(u.updatedAt),

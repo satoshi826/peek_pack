@@ -12,6 +12,11 @@ export async function findUserById(id: string) {
   return row ?? null
 }
 
+export async function findUserByUsername(username: string) {
+  const [row] = await db.select().from(users).where(eq(users.username, username))
+  return row ?? null
+}
+
 export async function findUserByEmail(email: string) {
   const [row] = await db.select().from(users).where(eq(users.email, email))
   return row ?? null
@@ -28,6 +33,15 @@ export async function createUser(input: CreateUserInput) {
 export async function updateUser(id: string, input: Partial<CreateUserInput>) {
   const [row] = await db.update(users)
     .set({ ...input, updatedAt: new Date() })
+    .where(eq(users.id, id))
+    .returning()
+  if (!row) throw new Error(`User with id ${id} not found`)
+  return row
+}
+
+export async function setUsername(id: string, username: string) {
+  const [row] = await db.update(users)
+    .set({ username, updatedAt: new Date() })
     .where(eq(users.id, id))
     .returning()
   if (!row) throw new Error(`User with id ${id} not found`)

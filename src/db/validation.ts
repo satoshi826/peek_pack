@@ -29,6 +29,8 @@ export const insertUserSchema = createInsertSchema(users).omit({
   id: true,
   createdAt: true,
   updatedAt: true,
+  emailVerified: true,
+  username: true,
 })
 export type CreateUserInput = z.infer<typeof insertUserSchema>
 

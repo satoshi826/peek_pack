@@ -9,8 +9,10 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui_shadcn/dropdown-menu'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui_shadcn/avatar'
-import { getCurrentUser } from '@/lib/auth'
+import { getCurrentUser } from '@/lib/auth-session'
 import { ThemeToggle } from '@/components/theme-toggle'
+import { LogoutButton } from '@/components/layout/logout-button'
+import { LoginDialog } from '@/components/layout/login-dialog'
 import { Container, Flex, Stack } from '@/components/ui_shadcn/layout'
 
 export async function Toolbar() {
@@ -53,7 +55,7 @@ export async function Toolbar() {
                   <DropdownMenuTrigger asChild>
                     <Button variant="ghost" size="icon" className="rounded-full">
                       <Avatar className="h-8 w-8">
-                        <AvatarImage src={currentUser.profileImage} alt={currentUser.name} />
+                        <AvatarImage src={currentUser.profileImage ?? undefined} alt={currentUser.name} />
                         <AvatarFallback>
                           {currentUser.name.charAt(0)}
                         </AvatarFallback>
@@ -70,17 +72,18 @@ export async function Toolbar() {
                       </Stack>
                     </DropdownMenuLabel>
                     <DropdownMenuSeparator />
-                    <DropdownMenuItem>
-                      ログアウト
+                    <DropdownMenuItem asChild>
+                      <Link href="/settings">設定</Link>
                     </DropdownMenuItem>
+                    <LogoutButton />
                   </DropdownMenuContent>
                 </DropdownMenu>
               )
 
             : (
-                <Button size="sm" asChild>
-                  <Link href="/login">ログイン</Link>
-                </Button>
+                <LoginDialog>
+                  <Button size="sm">ログイン</Button>
+                </LoginDialog>
               )}
         </Flex>
       </Container>
