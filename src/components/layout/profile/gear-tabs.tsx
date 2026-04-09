@@ -57,7 +57,8 @@ function GearSection({ icon, label, gears, gearType, status, userId, editable }:
           )
         : (
             <Typography variant="muted" className="text-center py-4">
-              {gearType === 'camera' ? 'カメラ' : 'レンズ'}がありません
+              {gearType === 'camera' ? 'カメラ' : 'レンズ'}
+              がありません
             </Typography>
           )}
     </Card>
@@ -82,8 +83,8 @@ function GearList({ gears, status, userId, editable }: {
 }
 
 const tabStatusMap = {
-  owned: 'owned',
-  wanted: 'wanted',
+  'owned': 'owned',
+  'wanted': 'wanted',
   'previously-owned': 'previously-owned',
 } as const satisfies Record<string, GearStatus>
 

@@ -14,7 +14,7 @@ export default meta
 type Story = StoryObj<typeof meta>
 
 const ColorSwatch = ({ name, variable }: { name: string
-  variable: string; }) => (
+  variable: string }) => (
   <div className="flex items-center gap-3 p-3 rounded-md border">
     <div
       className="size-12 rounded-md border shadow-sm shrink-0"
@@ -28,7 +28,7 @@ const ColorSwatch = ({ name, variable }: { name: string
 )
 
 const RadiusSwatch = ({ name, variable }: { name: string
-  variable: string; }) => (
+  variable: string }) => (
   <div className="flex items-center gap-3 p-3 rounded-md border">
     <div
       className="size-12 bg-primary shrink-0"

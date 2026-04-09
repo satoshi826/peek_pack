@@ -15,7 +15,7 @@ type Props = {
   }
 }
 
-type State = { success?: boolean; error?: string } | null
+type State = { success?: boolean, error?: string } | null
 
 async function action(_prev: State, formData: FormData): Promise<State> {
   try {
@@ -27,7 +27,8 @@ async function action(_prev: State, formData: FormData): Promise<State> {
 
     await updateProfile({ name: name.trim(), profileImage, bio })
     return { success: true }
-  } catch {
+  }
+  catch {
     return { error: '更新に失敗しました' }
   }
 }

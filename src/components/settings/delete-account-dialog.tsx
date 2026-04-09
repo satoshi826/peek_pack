@@ -56,7 +56,9 @@ export function DeleteAccountDialog() {
               <DialogHeader>
                 <DialogTitle>本当に削除しますか？</DialogTitle>
                 <DialogDescription>
-                  確認のため「{CONFIRM_TEXT}」と入力してください。
+                  確認のため「
+                  {CONFIRM_TEXT}
+                  」と入力してください。
                 </DialogDescription>
               </DialogHeader>
               <input

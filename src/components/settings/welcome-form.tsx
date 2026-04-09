@@ -9,7 +9,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Stack } from '@/components/ui_shadcn/layout'
 import { Typography } from '@/components/ui_shadcn/typography'
 
-type State = { success?: boolean; error?: string } | null
+type State = { success?: boolean, error?: string } | null
 
 async function action(_prev: State, formData: FormData): Promise<State> {
   const username = formData.get('username') as string

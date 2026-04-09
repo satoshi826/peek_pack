@@ -34,7 +34,12 @@ export function UserProfile({ user, ownedGears, wantedGears, previouslyOwnedGear
             <Stack spacing={2}>
               <div>
                 <Typography variant="h2">{user.name}</Typography>
-                {user.username && <Typography variant="muted">@{user.username}</Typography>}
+                {user.username && (
+                  <Typography variant="muted">
+                    @
+                    {user.username}
+                  </Typography>
+                )}
                 {user.bio && <Typography variant="muted">{user.bio}</Typography>}
               </div>
               <Flex gap={2}>

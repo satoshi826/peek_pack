@@ -6,7 +6,7 @@ import { revalidatePath } from 'next/cache'
 
 const USERNAME_REGEX = /^[a-zA-Z0-9_.]{3,20}$/
 
-export async function setupUsername(input: { username: string; name: string }) {
+export async function setupUsername(input: { username: string, name: string }) {
   const userId = await getCurrentUserId()
   if (!userId) throw new Error('認証が必要です')
 
