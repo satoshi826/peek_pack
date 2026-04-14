@@ -1,13 +1,15 @@
 'use client'
 
 import { useState } from 'react'
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import { Camera, Aperture, Star, History, Handbag } from 'lucide-react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Card } from '@/components/ui/card'
 import { Typography } from '@/components/ui_shadcn/typography'
 import { Flex, Grid } from '@/components/ui_shadcn/layout'
-import { AddGearDialog } from './add-gear-dialog'
+
+const AddGearDialog = dynamic(() => import('./add-gear-dialog').then(m => ({ default: m.AddGearDialog })))
 import type { UserGearWithDetails } from '@/types/user-gear'
 import type { GearStatus } from '@/db/validation'
 

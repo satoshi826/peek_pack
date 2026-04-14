@@ -1,6 +1,7 @@
 import { db } from '@/db'
 import { cameraMasters } from '@/db/schema'
 import { eq, and, type SQL } from 'drizzle-orm'
+import { cacheLife, cacheTag, revalidateTag } from 'next/cache'
 import type { CreateCameraMasterInput } from '@/db/validation'
 
 export interface CameraSearchFilters {
@@ -16,15 +17,24 @@ export interface CameraDistinctValues {
 }
 
 export async function findAllCameraMasters() {
+  'use cache'
+  cacheTag('camera-masters')
+  cacheLife('masterData')
   return db.select().from(cameraMasters)
 }
 
 export async function findCameraMasterById(id: string) {
+  'use cache'
+  cacheTag('camera-masters')
+  cacheLife('masterData')
   const [row] = await db.select().from(cameraMasters).where(eq(cameraMasters.id, id))
   return row ?? null
 }
 
 export async function searchCameraMastersWithFilters(params: CameraSearchFilters) {
+  'use cache'
+  cacheTag('camera-masters')
+  cacheLife('masterData')
   const conditions: SQL[] = []
 
   if (params.makerId) conditions.push(eq(cameraMasters.makerId, params.makerId))
@@ -38,6 +48,9 @@ export async function searchCameraMastersWithFilters(params: CameraSearchFilters
 }
 
 export async function getCameraDistinctValues(): Promise<CameraDistinctValues> {
+  'use cache'
+  cacheTag('camera-masters')
+  cacheLife('masterData')
   const [mountRows, sensorRows] = await Promise.all([
     db.selectDistinct({ lensMount: cameraMasters.lensMount }).from(cameraMasters),
     db.selectDistinct({ sensorSize: cameraMasters.sensorSize }).from(cameraMasters),
@@ -54,6 +67,7 @@ export async function createCameraMaster(input: CreateCameraMasterInput) {
     id: crypto.randomUUID(),
     ...input,
   }).returning()
+  revalidateTag('camera-masters', 'max')
   return row
 }
 
@@ -63,10 +77,12 @@ export async function updateCameraMaster(id: string, input: Partial<CreateCamera
     .where(eq(cameraMasters.id, id))
     .returning()
   if (!row) throw new Error(`Camera with id ${id} not found`)
+  revalidateTag('camera-masters', 'max')
   return row
 }
 
 export async function deleteCameraMaster(id: string) {
   const result = await db.delete(cameraMasters).where(eq(cameraMasters.id, id)).returning()
   if (result.length === 0) throw new Error(`Camera with id ${id} not found`)
+  revalidateTag('camera-masters', 'max')
 }

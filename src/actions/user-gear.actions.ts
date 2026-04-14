@@ -49,17 +49,17 @@ export async function searchMasters(input: {
   maxAperture?: string
   focusType?: FocusType
 }): Promise<MasterSearchResult[]> {
-  const makers = await findAllMakers()
-  const makerMap = new Map(makers.map(m => [m.id, m]))
-
   if (input.gearType === 'camera') {
-    // フィルタのみでクエリし、テキスト検索はJS側でメーカー名も含めてマッチ
-    const cameras = await searchCameraMastersWithFilters({
-      makerId: input.makerId,
-      lensMount: input.lensMount,
-      sensorSize: input.sensorSize,
-      isCompact: input.isCompact,
-    })
+    const [makers, cameras] = await Promise.all([
+      findAllMakers(),
+      searchCameraMastersWithFilters({
+        makerId: input.makerId,
+        lensMount: input.lensMount,
+        sensorSize: input.sensorSize,
+        isCompact: input.isCompact,
+      }),
+    ])
+    const makerMap = new Map(makers.map(m => [m.id, m]))
 
     const filtered = input.query
       ? cameras.filter((c) => {
@@ -80,13 +80,17 @@ export async function searchMasters(input: {
     }))
   }
 
-  const lenses = await searchLensMastersWithFilters({
-    makerId: input.makerId,
-    lensMount: input.lensMount,
-    focalLength: input.focalLength,
-    maxAperture: input.maxAperture,
-    focusType: input.focusType,
-  })
+  const [makers, lenses] = await Promise.all([
+    findAllMakers(),
+    searchLensMastersWithFilters({
+      makerId: input.makerId,
+      lensMount: input.lensMount,
+      focalLength: input.focalLength,
+      maxAperture: input.maxAperture,
+      focusType: input.focusType,
+    }),
+  ])
+  const makerMap = new Map(makers.map(m => [m.id, m]))
 
   const filtered = input.query
     ? lenses.filter((l) => {
@@ -109,25 +113,24 @@ export async function searchMasters(input: {
 }
 
 export async function getMasterFilterOptions(gearType: GearType): Promise<FilterOptions> {
-  const makers = await findAllMakers()
-  const makerOptions = makers.map(m => ({
-    id: m.id,
-    name: m.name,
-    nameJa: m.nameJa,
-  }))
-
   if (gearType === 'camera') {
-    const distinctValues = await getCameraDistinctValues()
+    const [makers, distinctValues] = await Promise.all([
+      findAllMakers(),
+      getCameraDistinctValues(),
+    ])
     return {
-      makers: makerOptions,
+      makers: makers.map(m => ({ id: m.id, name: m.name, nameJa: m.nameJa })),
       lensMounts: distinctValues.lensMounts,
       sensorSizes: distinctValues.sensorSizes,
     }
   }
 
-  const distinctValues = await getLensDistinctValues()
+  const [makers, distinctValues] = await Promise.all([
+    findAllMakers(),
+    getLensDistinctValues(),
+  ])
   return {
-    makers: makerOptions,
+    makers: makers.map(m => ({ id: m.id, name: m.name, nameJa: m.nameJa })),
     lensMounts: distinctValues.lensMounts,
     focalLengths: distinctValues.focalLengths,
     maxApertures: distinctValues.maxApertures,

@@ -1,16 +1,12 @@
 import { redirect } from 'next/navigation'
 import { getCurrentUser } from '@/lib/auth-session'
-import { findUserById } from '@/db/queries/user'
 import { ProfileForm } from '@/components/settings/profile-form'
 import { DeleteAccountDialog } from '@/components/settings/delete-account-dialog'
 import { Typography } from '@/components/ui_shadcn/typography'
 import { Container, Stack } from '@/components/ui_shadcn/layout'
 
 export default async function SettingsPage() {
-  const sessionUser = await getCurrentUser()
-  if (!sessionUser) redirect('/login')
-
-  const user = await findUserById(sessionUser.id)
+  const user = await getCurrentUser()
   if (!user) redirect('/login')
 
   return (

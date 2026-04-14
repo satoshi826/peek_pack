@@ -1,6 +1,7 @@
 import { db } from '@/db'
 import { lensMasters } from '@/db/schema'
 import { eq, and, type SQL } from 'drizzle-orm'
+import { cacheLife, cacheTag, revalidateTag } from 'next/cache'
 import type { CreateLensMasterInput, FocusType } from '@/db/validation'
 
 export interface LensSearchFilters {
@@ -19,15 +20,24 @@ export interface LensDistinctValues {
 }
 
 export async function findAllLensMasters() {
+  'use cache'
+  cacheTag('lens-masters')
+  cacheLife('masterData')
   return db.select().from(lensMasters)
 }
 
 export async function findLensMasterById(id: string) {
+  'use cache'
+  cacheTag('lens-masters')
+  cacheLife('masterData')
   const [row] = await db.select().from(lensMasters).where(eq(lensMasters.id, id))
   return row ?? null
 }
 
 export async function searchLensMastersWithFilters(params: LensSearchFilters) {
+  'use cache'
+  cacheTag('lens-masters')
+  cacheLife('masterData')
   const conditions: SQL[] = []
 
   if (params.makerId) conditions.push(eq(lensMasters.makerId, params.makerId))
@@ -42,6 +52,9 @@ export async function searchLensMastersWithFilters(params: LensSearchFilters) {
 }
 
 export async function getLensDistinctValues(): Promise<LensDistinctValues> {
+  'use cache'
+  cacheTag('lens-masters')
+  cacheLife('masterData')
   const [mountRows, focalRows, apertureRows, focusRows] = await Promise.all([
     db.selectDistinct({ lensMount: lensMasters.lensMount }).from(lensMasters),
     db.selectDistinct({ focalLength: lensMasters.focalLength }).from(lensMasters),
@@ -62,6 +75,7 @@ export async function createLensMaster(input: CreateLensMasterInput) {
     id: crypto.randomUUID(),
     ...input,
   }).returning()
+  revalidateTag('lens-masters', 'max')
   return row
 }
 
@@ -71,10 +85,12 @@ export async function updateLensMaster(id: string, input: Partial<CreateLensMast
     .where(eq(lensMasters.id, id))
     .returning()
   if (!row) throw new Error(`Lens with id ${id} not found`)
+  revalidateTag('lens-masters', 'max')
   return row
 }
 
 export async function deleteLensMaster(id: string) {
   const result = await db.delete(lensMasters).where(eq(lensMasters.id, id)).returning()
   if (result.length === 0) throw new Error(`Lens with id ${id} not found`)
+  revalidateTag('lens-masters', 'max')
 }

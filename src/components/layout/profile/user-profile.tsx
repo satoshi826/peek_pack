@@ -1,10 +1,8 @@
 import { Card, CardContent } from '@/components/ui/card'
-import { Badge } from '@/components/ui_shadcn/badge'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui_shadcn/avatar'
 import { Typography } from '@/components/ui_shadcn/typography'
 import { Flex, Stack } from '@/components/ui_shadcn/layout'
-import { GearTabs } from './gear-tabs'
-import type { UserGearWithDetails } from '@/types/user-gear'
+import { GearTabsLoader } from './gear-tabs-loader'
 
 type Props = {
   user: {
@@ -15,13 +13,10 @@ type Props = {
     email?: string
     bio?: string | null
   }
-  ownedGears: UserGearWithDetails[]
-  wantedGears: UserGearWithDetails[]
-  previouslyOwnedGears: UserGearWithDetails[]
   editable?: boolean
 }
 
-export function UserProfile({ user, ownedGears, wantedGears, previouslyOwnedGears, editable }: Props) {
+export function UserProfile({ user, editable }: Props) {
   return (
     <Stack spacing={8}>
       <Card variant="inset">
@@ -32,33 +27,19 @@ export function UserProfile({ user, ownedGears, wantedGears, previouslyOwnedGear
               <AvatarFallback>{user.name.slice(0, 2)}</AvatarFallback>
             </Avatar>
             <Stack spacing={2}>
-              <div>
-                <Typography variant="h2">{user.name}</Typography>
-                {user.username && (
-                  <Typography variant="muted">
-                    @
-                    {user.username}
-                  </Typography>
-                )}
-                {user.bio && <Typography variant="muted">{user.bio}</Typography>}
-              </div>
-              <Flex gap={2}>
-                <Badge variant="secondary">
-                  {ownedGears.length}
-                  個のギア
-                </Badge>
-              </Flex>
+              <Typography variant="h2">{user.name}</Typography>
+              {user.username && (
+                <Typography variant="muted">
+                  @
+                  {user.username}
+                </Typography>
+              )}
+              {user.bio && <Typography variant="muted">{user.bio}</Typography>}
             </Stack>
           </Flex>
         </CardContent>
       </Card>
-      <GearTabs
-        ownedGears={ownedGears}
-        wantedGears={wantedGears}
-        previouslyOwnedGears={previouslyOwnedGears}
-        userId={user.id}
-        editable={editable}
-      />
+      <GearTabsLoader userId={user.id} editable={editable} />
     </Stack>
   )
 }

@@ -1,5 +1,4 @@
-'use server'
-
+import { cache } from 'react'
 import { headers } from 'next/headers'
 import { auth } from '@/lib/auth'
 import { findUserById } from '@/db/queries/user'
@@ -10,16 +9,16 @@ export type SessionUser = {
   name: string
   email: string
   profileImage: string | null
+  bio: string | null
 }
 
-export async function getSession() {
-  const session = await auth.api.getSession({
+export const getSession = cache(async () => {
+  return auth.api.getSession({
     headers: await headers(),
   })
-  return session
-}
+})
 
-export async function getCurrentUser(): Promise<SessionUser | null> {
+export const getCurrentUser = cache(async (): Promise<SessionUser | null> => {
   const session = await getSession()
   if (!session?.user) return null
 
@@ -32,8 +31,9 @@ export async function getCurrentUser(): Promise<SessionUser | null> {
     name: user.name,
     email: user.email,
     profileImage: user.profileImage,
+    bio: user.bio,
   }
-}
+})
 
 export async function getCurrentUserId(): Promise<string | null> {
   const session = await getSession()

@@ -28,21 +28,6 @@ export async function Toolbar() {
             </Flex>
           </Link>
 
-          {/* <Flex as="nav" align="center" gap={6} className="flex-1">
-          <Link
-            href="/"
-            className="text-sm font-medium transition-colors hover:text-primary"
-          >
-            ホーム
-          </Link>
-          <Link
-            href="/gears"
-            className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-          >
-            ギア一覧
-          </Link>
-        </Flex> */}
-
           <div className="grow" />
 
           {/* Theme Toggle */}

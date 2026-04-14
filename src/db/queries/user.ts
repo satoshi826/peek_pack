@@ -1,3 +1,4 @@
+import { cache } from 'react'
 import { db } from '@/db'
 import { users } from '@/db/schema'
 import { eq } from 'drizzle-orm'
@@ -12,10 +13,10 @@ export async function findUserById(id: string) {
   return row ?? null
 }
 
-export async function findUserByUsername(username: string) {
+export const findUserByUsername = cache(async (username: string) => {
   const [row] = await db.select().from(users).where(eq(users.username, username))
   return row ?? null
-}
+})
 
 export async function findUserByEmail(email: string) {
   const [row] = await db.select().from(users).where(eq(users.email, email))
